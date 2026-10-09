@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Pravasi Palace - Ajmer | Just 200m from Railway Station</title>
+    <meta name="description" content="Stay at Hotel Pravasi Palace, Ajmer. Located just 200m from Ajmer Railway Station. Luxury & Budget AC Rooms, Free Wi-Fi, 24/7 Room Service. Book Direct for Best Rates.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F172A',
+                        accent: '#EAB308',
+                        accentDark: '#CA8A04',
+                        royalGold: '#D97706',
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-pattern {
+            background: linear-gradient(rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.90)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-royalGold text-white text-xs md:text-sm py-2 px-4 text-center font-medium flex justify-between items-center max-w-7xl mx-auto rounded-b-lg shadow-sm">
+        <span class="flex items-center gap-2 mx-auto md:mx-0">
+            <i class="fa-solid fa-gift animate-pulse"></i> स्पेशल ऑफर: डायरेक्ट वेबसाइट बुकिंग पर <strong>20% की सीधी छूट!</strong> (No Middleman Fee)
+        </span>
+        <div class="hidden md:flex items-center gap-4 text-xs font-semibold">
+            <span><i class="fa-solid fa-phone"></i> +91 98290 XXXXX</span>
+            <span><i class="fa-solid fa-location-dot"></i> रेलवे स्टेशन रोड, अजमेर</span>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-slate-900 flex items-center justify-center text-accent font-serif text-2xl font-bold shadow-md border border-accent/40">
+                    PP
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-slate-900 tracking-tight flex items-center gap-1 font-serif">
+                        HOTEL PRAVASI PALACE
+                    </h1>
+                    <p class="text-xs text-royalGold font-semibold tracking-wider uppercase">Near Ajmer Junction Railway Station</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#about" class="hover:text-royalGold transition-colors">परिचय</a>
+                <a href="#rooms" class="hover:text-royalGold transition-colors">कमरे व किराया</a>
+                <a href="#amenities" class="hover:text-royalGold transition-colors">सुविधाएँ</a>
+                <a href="#location" class="hover:text-royalGold transition-colors">लोकेशन</a>
+                <a href="#contact" class="hover:text-royalGold transition-colors">संपर्क</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="tel:+919829000000" class="hidden sm:inline-flex items-center gap-2 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold py-2.5 px-4 rounded-full transition">
+                    <i class="fa-solid fa-phone text-royalGold"></i> कॉल करें
+                </a>
+                <a href="#bookingModal" onclick="openBooking('General Enquiry')" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold py-2.5 px-5 rounded-full shadow-lg hover:shadow-emerald-500/25 transition">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> अभी बुक करें
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern text-white py-24 md:py-32 px-4 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto text-center space-y-6">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-accent font-medium text-xs md:text-sm px-4 py-1.5 rounded-full uppercase tracking-wider">
+                <i class="fa-solid fa-train"></i> अजमेर रेलवे स्टेशन से मात्र 2 मिनट की दूरी
+            </div>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl font-extrabold font-serif leading-tight">
+                अजमेर में आपका आरामदायक <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500">शाही व सुरक्षित ठिकाना</span>
+            </h2>
+            <p class="text-slate-300 text-base md:text-xl max-w-3xl mx-auto leading-relaxed">
+                दरगाह शरीफ, पुष्कर तीर्थ और पुष्कर बाईपास के लिए सबसे सुगम स्थान। आधुनिक वातानुकूलित कमरे, 24 घंटे गर्म पानी, लिफ्ट और स्वादिष्ट पारिवारिक भोजन।
+            </p>
+
+            <!-- Quick Booking Bar -->
+            <div class="bg-white text-slate-800 p-4 md:p-6 rounded-2xl shadow-2xl max-w-4xl mx-auto mt-8 border border-slate-200/50">
+                <form id="heroBookingForm" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 text-left">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Check-In</label>
+                        <input type="date" id="heroCheckIn" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-royalGold focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Check-Out</label>
+                        <input type="date" id="heroCheckOut" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-royalGold focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">कमरा (Room Type)</label>
+                        <select id="heroRoomType" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-royalGold focus:outline-none">
+                            <option value="Deluxe AC Room">डिलक्स AC रूम (₹1,499)</option>
+                            <option value="Super Deluxe Room">सुपर डिलक्स रूम (₹1,999)</option>
+                            <option value="Family 4-Bed Suite">फैमिली 4-बेड सूट (₹2,799)</option>
+                            <option value="Standard Non-AC">स्टैंडर्ड Non-AC (₹999)</option>
+                        </select>
+                    </div>
+                    <div class="flex items-end">
+                        <button type="button" onclick="sendHeroWhatsApp()" class="w-full bg-slate-900 hover:bg-slate-800 text-accent font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-400"></i> रेट चेक करें
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Trust badges -->
+            <div class="flex flex-wrap justify-center gap-6 pt-6 text-xs md:text-sm text-slate-300">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400"></i> सुरक्षित पारिवारिक वातावरण</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400"></i> स्टेशन से फ्री पिकअप सलाह</span>
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-circle-check text-emerald-400"></i> बेस्ट प्राइस गारंटी</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Highlights / Badges -->
+    <section class="py-10 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 rounded-xl hover:bg-slate-50 transition border border-transparent hover:border-slate-200">
+                <div class="w-12 h-12 mx-auto bg-amber-50 text-royalGold rounded-full flex items-center justify-center text-xl mb-3">
+                    <i class="fa-solid fa-train-subway"></i>
+                </div>
+                <h4 class="font-bold text-slate-900">200m स्टेशन दूरी</h4>
+                <p class="text-xs text-slate-500 mt-1">ट्रेन से उतरते ही 2 मिनट में होटल पहुंचें</p>
+            </div>
+            <div class="p-4 rounded-xl hover:bg-slate-50 transition border border-transparent hover:border-slate-200">
+                <div class="w-12 h-12 mx-auto bg-amber-50 text-royalGold rounded-full flex items-center justify-center text-xl mb-3">
+                    <i class="fa-solid fa-mosque"></i>
+                </div>
+                <h4 class="font-bold text-slate-900">दरगाह शरीफ 1.2 किमी</h4>
+                <p class="text-xs text-slate-500 mt-1">ऑटो, ई-रिक्शा और पैदल सुगम रास्ता</p>
+            </div>
+            <div class="p-4 rounded-xl hover:bg-slate-50 transition border border-transparent hover:border-slate-200">
+                <div class="w-12 h-12 mx-auto bg-amber-50 text-royalGold rounded-full flex items-center justify-center text-xl mb-3">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h4 class="font-bold text-slate-900">100% सुरक्षित और साफ</h4>
+                <p class="text-xs text-slate-500 mt-1">CCTV सुरक्षा और सेनेटाइज्ड कमरे</p>
+            </div>
+            <div class="p-4 rounded-xl hover:bg-slate-50 transition border border-transparent hover:border-slate-200">
+                <div class="w-12 h-12 mx-auto bg-amber-50 text-royalGold rounded-full flex items-center justify-center text-xl mb-3">
+                    <i class="fa-solid fa-headset"></i>
+                </div>
+                <h4 class="font-bold text-slate-900">24x7 सपोर्ट</h4>
+                <p class="text-xs text-slate-500 mt-1">रूम सर्विस व पुष्कर यात्रा मार्गदर्शन</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=80" alt="Hotel Pravasi Palace Ajmer Room" class="rounded-2xl shadow-xl w-full h-[400px] object-cover border-4 border-white">
+                <div class="absolute -bottom-6 -right-6 bg-slate-900 text-white p-5 rounded-xl shadow-2xl border border-royalGold hidden sm:block max-w-xs">
+                    <p class="text-accent font-bold text-2xl font-serif">10+ वर्ष</p>
+                    <p class="text-xs text-slate-300">अजमेर में श्रद्धालुओं व पर्यटकों का भरोसेमंद आतिथ्य</p>
+                </div>
+            </div>
+            <div class="space-y-6">
+                <span class="text-royalGold font-bold text-sm uppercase tracking-wider">स्वागतम् / Welcome</span>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 font-serif leading-tight">
+                    होटल प्रवासी पैलेस - रेलवे स्टेशन के सबसे निकटतम सुविधा संपन्न होटल
+                </h3>
+                <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+                    होटल प्रवासी पैलेस अजमेर जंक्शन रेलवे स्टेशन के ठीक सामने स्थित है। चाहे आप ख्वाजा गरीब नवाज की दरगाह की जियारत के लिए आए हों, पुष्कर ब्रह्मा मंदिर दर्शन के लिए जा रहे हों या किसी व्यापारिक कार्य से अजमेर आए हों, हमारा होटल आपको एक शांत, स्वच्छ और बजट-फ्रेंडली अनुभव देता है।
+                </p>
+                <div class="grid grid-cols-2 gap-4 pt-2">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                        <span class="text-sm font-semibold text-slate-700">लिफ्ट सुविधा उपलब्ध</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                        <span class="text-sm font-semibold text-slate-700">हाई-स्पीड फ्री वाई-फाई</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                        <span class="text-sm font-semibold text-slate-700">शुद्ध शाकाहारी भोजन व्यवस्था</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-check text-emerald-600 font-bold"></i>
+                        <span class="text-sm font-semibold text-slate-700">टूर एंड ट्रेवल्स डेस्क</span>
+                    </div>
+                </div>
+                <div class="pt-4">
+                    <a href="#rooms" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-xl font-bold text-sm transition">
+                        कमरे व सुविधाएं देखें <i class="fa-solid fa-arrow-right text-accent"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms & Tariff Section -->
+    <section id="rooms" class="py-16 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14 space-y-3">
+                <span class="text-royalGold font-bold text-sm uppercase tracking-wider">Rooms & Rates</span>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 font-serif">हमारे आधुनिक कमरे एवं किराया</h3>
+                <p class="text-slate-600 text-sm sm:text-base">
+                    प्रत्येक कमरे में स्वच्छता, प्राइवेसी और सभी जरूरी आधुनिक सुविधाओं का विशेष ध्यान रखा गया है।
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Room Card 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-slate-200 flex flex-col">
+                    <div class="relative h-56">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80" alt="Deluxe AC Room" class="w-full h-full object-cover">
+                        <span class="absolute top-3 right-3 bg-slate-900 text-accent font-bold text-xs px-3 py-1 rounded-full uppercase">पॉपुलर</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="text-xl font-bold text-slate-900">डिलक्स AC रूम</h4>
+                                <span class="text-2xl font-extrabold text-slate-900">₹1,499<span class="text-xs text-slate-500 font-normal">/रात</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4">कपल्स व 2 वयस्कों के लिए सर्वोपरि आरामदायक कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-snowflake text-royalGold"></i> स्पिलिट एयर कंडीशनर</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-tv text-royalGold"></i> 32" LED स्मार्ट टीवी</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-shower text-royalGold"></i> 24 घंटे गर्म व ठंडा पानी</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-wifi text-royalGold"></i> फ्री अनलिमिटेड हाई-स्पीड वाईफाई</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('Deluxe AC Room (₹1,499)')" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-emerald-400"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room Card 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border-2 border-royalGold flex flex-col relative">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 bg-royalGold text-white text-[11px] font-bold px-4 py-0.5 rounded-b-md uppercase tracking-wider z-10">
+                        अतिथि पसंद (Most Booked)
+                    </div>
+                    <div class="relative h-56">
+                        <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=800&q=80" alt="Super Deluxe Room" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="text-xl font-bold text-slate-900">सुपर डिलक्स रूम</h4>
+                                <span class="text-2xl font-extrabold text-royalGold">₹1,999<span class="text-xs text-slate-500 font-normal">/रात</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4">अतिरिक्त स्पेस, किंग साइज बेड और शहर का व्यू।</p>
+                            <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-bed text-royalGold"></i> लक्ज़री किंग साइज़ गद्दे</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-mug-hot text-royalGold"></i> टी/कॉफी मेकर इन-रूम</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-soap text-royalGold"></i> प्रीमियम टॉयलेट्रीज किट</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-bell-concierge text-royalGold"></i> प्राथमिकता रूम सर्विस</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('Super Deluxe Room (₹1,999)')" class="w-full bg-royalGold hover:bg-amber-600 text-white font-bold py-3 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-lg shadow-amber-600/30">
+                            <i class="fa-brands fa-whatsapp text-white"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room Card 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all border border-slate-200 flex flex-col">
+                    <div class="relative h-56">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" alt="Family 4-Bed Suite" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="text-xl font-bold text-slate-900">फैमिली 4-बेड सूट</h4>
+                                <span class="text-2xl font-extrabold text-slate-900">₹2,799<span class="text-xs text-slate-500 font-normal">/रात</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-4">परिवार व जायरीन ग्रुप के लिए 2 डबल बेड का बड़ा कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-users text-royalGold"></i> 4 से 5 व्यक्तियों के लिए उपयुक्त</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-couch text-royalGold"></i> बैठक सोफा व सिटिंग स्पेस</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-bath text-royalGold"></i> बड़ा अटैच बाथरूम व गीजर</li>
+                                <li class="flex items-center gap-2"><i class="fa-solid fa-shield-cat text-royalGold"></i> अतिरिक्त सामान रखने की अलमारी</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('Family 4-Bed Suite (₹2,799)')" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-emerald-400"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14 space-y-3">
+            <span class="text-royalGold font-bold text-sm uppercase tracking-wider">World-Class Facilities</span>
+            <h3 class="text-3xl sm:text-4xl font-extrabold text-slate-900 font-serif">होटल में उपलब्ध प्रमुख सुविधाएं</h3>
+            <p class="text-slate-600 text-sm sm:text-base">हमारा प्रयास है कि अजमेर यात्रा के दौरान आपको घर जैसा सुकून और पूरी सुविधा मिले।</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                <i class="fa-solid fa-elevator text-3xl text-royalGold mb-3"></i>
+                <h5 class="font-bold text-slate-900 text-base">आधुनिक लिफ्ट</h5>
+                <p class="text-xs text-slate-500 mt-1">बुजुर्गों एवं बच्चों के लिए आसान पहुंच</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                <i class="fa-solid fa-bolt text-3xl text-royalGold mb-3"></i>
+                <h5 class="font-bold text-slate-900 text-base">24/7 पॉवर बैकअप</h5>
+                <p class="text-xs text-slate-500 mt-1">बिना रुकावट बिजली व AC सुविधा</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                <i class="fa-solid fa-car text-3xl text-royalGold mb-3"></i>
+                <h5 class="font-bold text-slate-900 text-base">टैक्सी व टूर डेस्क</h5>
+                <p class="text-xs text-slate-500 mt-1">पुष्कर, तारागढ़, ख्वाजा दरगाह हेतु वाहन</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 text-center hover:shadow-md transition">
+                <i class="fa-solid fa-utensils text-3xl text-royalGold mb-3"></i>
+                <h5 class="font-bold text-slate-900 text-base">किचन व रूम सर्विस</h5>
+                <p class="text-xs text-slate-500 mt-1">ताज़ा, स्वच्छ चाय, नाश्ता व भोजन</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Distance -->
+    <section id="location" class="py-16 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="text-accent font-bold text-sm uppercase tracking-wider">Strategic Location</span>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold font-serif">अजमेर के प्रमुख स्थलों से दूरी</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        होटल प्रवासी पैलेस अजमेर के मध्य रेलवे स्टेशन रोड पर स्थित है, जिससे सभी धार्मिक और दर्शनीय स्थल मिनटों की दूरी पर हैं।
+                    </p>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                            <span class="flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-train text-accent"></i> अजमेर रेलवे स्टेशन (Ajmer Jn)</span>
+                            <span class="text-xs font-bold bg-amber-400/20 text-accent px-3 py-1 rounded-full">200 मीटर (2 मिनट पैदल)</span>
+                        </div>
+                        <div class="flex justify-between items-center bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                            <span class="flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-mosque text-accent"></i> दरगाह ख्वाजा गरीब नवाज</span>
+                            <span class="text-xs font-bold bg-amber-400/20 text-accent px-3 py-1 rounded-full">1.2 किमी (5 मिनट)</span>
+                        </div>
+                        <div class="flex justify-between items-center bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                            <span class="flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-bus text-accent"></i> सेंट्रल रोडवेज बस स्टैंड</span>
+                            <span class="text-xs font-bold bg-amber-400/20 text-accent px-3 py-1 rounded-full">1.5 किमी (6 मिनट)</span>
+                        </div>
+                        <div class="flex justify-between items-center bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                            <span class="flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-water text-accent"></i> आना सागर झील व चौपाटी</span>
+                            <span class="text-xs font-bold bg-amber-400/20 text-accent px-3 py-1 rounded-full">2.8 किमी (10 मिनट)</span>
+                        </div>
+                        <div class="flex justify-between items-center bg-slate-800/80 p-3.5 rounded-xl border border-slate-700">
+                            <span class="flex items-center gap-3 text-sm font-semibold"><i class="fa-solid fa-om text-accent"></i> पुष्कर तीर्थ व ब्रह्मा मंदिर</span>
+                            <span class="text-xs font-bold bg-amber-400/20 text-accent px-3 py-1 rounded-full">13 किमी (25 मिनट)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Frame Simulation -->
+                <div class="bg-slate-800 p-4 rounded-2xl border border-slate-700 space-y-4">
+                    <div class="h-80 w-full rounded-xl overflow-hidden bg-slate-700 flex items-center justify-center relative">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.5540307049814!2d74.6366!3d26.4525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6e2578fa239%3A0x6b4efb4dfba47fef!2sAjmer%20Junction!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                            class="w-full h-full border-0" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="text-center text-xs text-slate-400">
+                        <i class="fa-solid fa-location-crosshairs text-accent"></i> पता: नियर रेलवे स्टेशन, क्लॉक टॉवर रोड, अजमेर, राजस्थान 305001
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Direct Booking Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center space-y-8">
+            <h3 class="text-3xl font-extrabold text-slate-900 font-serif">सीधी बुकिंग - बेस्ट रेट्स एवं तुरंत कन्फर्मेशन</h3>
+            <p class="text-slate-600 max-w-xl mx-auto text-sm">
+                कमीशन मुक्त और सबसे किफायती रेट पर रूम बुक करने के लिए सीधे होटल रिसेप्शन से संपर्क करें।
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:+919829000000" class="inline-flex items-center justify-center gap-3 bg-slate-900 hover:bg-slate-800 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition text-base">
+                    <i class="fa-solid fa-phone text-accent"></i> फोन करें: +91 98290 XXXXX
+                </a>
+                <a href="https://wa.me/919829000000?text=नमस्ते%20Hotel%20Pravasi%20Palace,%20मुझे%20अजमेर%20में%20कमरा%20बुक%20करना%20है।" target="_blank" class="inline-flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 px-8 rounded-xl shadow-lg transition text-base">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i> व्हाट्सएप चैट करें
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-900 text-sm">
+        <div class="max-w-7xl mx-auto px-4 text-center space-y-4">
+            <p class="font-serif text-white font-bold text-lg">HOTEL PRAVASI PALACE - AJMER</p>
+            <p class="text-xs text-slate-500">© 2026 Hotel Pravasi Palace. सभी अधिकार सुरक्षित। वेबसाइट पावर्ड बाय मॉडर्न वेब सोल्यूशंस।</p>
+        </div>
+    </footer>
+
+    <!-- Booking Modal (WhatsApp Generator) -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative">
+            <button onclick="closeBooking()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold">✕</button>
+            <h4 class="text-xl font-bold text-slate-900 font-serif mb-1">कमरा बुक करें / पूछताछ</h4>
+            <p class="text-xs text-slate-500 mb-4">होटल प्रवासी पैलेस (सीधा व्हाट्सएप संदेश)</p>
+
+            <div class="space-y-3 text-left">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">आपका नाम</label>
+                    <input type="text" id="modalName" placeholder="अपना नाम दर्ज करें" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-royalGold focus:outline-none">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">आगमन (Check-in)</label>
+                        <input type="date" id="modalDate" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-royalGold focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">कुल व्यक्ति (Guests)</label>
+                        <input type="number" id="modalGuests" value="2" min="1" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-royalGold focus:outline-none">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">कमरे का प्रकार</label>
+                    <input type="text" id="modalRoom" readonly class="w-full bg-slate-100 border border-slate-300 rounded-lg p-2.5 text-sm font-medium text-slate-700">
+                </div>
+                <button onclick="submitModalWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 mt-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> व्हाट्सएप पर मैसेज भेजें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script for Dynamic WhatsApp Booking -->
+    <script>
+        function openBooking(roomName) {
+            document.getElementById('modalRoom').value = roomName || 'General Enquiry';
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBooking() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+
+        function submitModalWhatsApp() {
+            const name = document.getElementById('modalName').value || 'Guest';
+            const date = document.getElementById('modalDate').value || 'Not specified';
+            const guests = document.getElementById('modalGuests').value || '2';
+            const room = document.getElementById('modalRoom').value;
+
+            const text = `नमस्ते Hotel Pravasi Palace Ajmer,\nमेरा नाम ${name} है।\nमुझे ${room} बुक करना है।\nCheck-in Date: ${date}\nGuests: ${guests}\nकृपया रूम उपलब्धता एवं फाइनल रेट बताएं।`;
+            const url = `https://wa.me/919829000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+            closeBooking();
+        }
+
+        function sendHeroWhatsApp() {
+            const cin = document.getElementById('heroCheckIn').value || 'Not set';
+            const cout = document.getElementById('heroCheckOut').value || 'Not set';
+            const room = document.getElementById('heroRoomType').value;
+
+            const text = `नमस्ते Hotel Pravasi Palace Ajmer,\nमैं कमरा बुक करना चाहता हूँ:\nRoom: ${room}\nCheck-in: ${cin}\nCheck-out: ${cout}\nकृपया बेस्ट डायरेक्ट रेट बताएं।`;
+            const url = `https://wa.me/919829000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

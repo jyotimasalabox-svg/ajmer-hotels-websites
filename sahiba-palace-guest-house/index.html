@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahiba Palace Guest House - Diggi Bazar, Ajmer | Budget & Family Stay</title>
+    <meta name="description" content="Sahiba Palace Guest House, Diggi Bazar Ajmer. Best budget accommodation near Dargah Sharif. Clean family rooms, group stay, 24/7 hot water, best rates.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        maroonDark: '#831843',
+                        maroonPrimary: '#9D174D',
+                        maroonLight: '#FCE7F3',
+                        accentGold: '#D97706',
+                    },
+                    fontFamily: {
+                        sans: ['Urbanist', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-sahiba {
+            background: linear-gradient(rgba(131, 24, 67, 0.90), rgba(157, 23, 77, 0.92)), url('https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-[#FFFDFE] antialiased">
+
+    <!-- Top Announcement -->
+    <div class="bg-maroonDark text-pink-100 text-xs py-2 px-4 border-b border-pink-900">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-heart text-pink-400"></i> साहिबा पैलेस गेस्ट हाउस: घर जैसा सुरक्षित और किफायती ठहराव (डिग्गी बाजार)
+            </span>
+            <div class="hidden sm:flex items-center gap-4 text-xs font-semibold">
+                <span><i class="fa-solid fa-phone text-pink-300"></i> +91 93520 XXXXX</span>
+                <span>दरगाह शरीफ से मात्र 400 मीटर</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-pink-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-maroonDark to-maroonPrimary text-amber-300 flex items-center justify-center font-serif text-2xl font-bold shadow-md">
+                    SP
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-slate-900 tracking-tight font-serif">
+                        SAHIBA PALACE
+                    </h1>
+                    <p class="text-xs text-maroonPrimary font-bold uppercase tracking-wider">Guest House • Diggi Bazar, Ajmer</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#about" class="hover:text-maroonPrimary transition-colors">परिचय</a>
+                <a href="#rooms" class="hover:text-maroonPrimary transition-colors">कमरे व पैकेज</a>
+                <a href="#amenities" class="hover:text-maroonPrimary transition-colors">सुविधाएँ</a>
+                <a href="#location" class="hover:text-maroonPrimary transition-colors">लोकेशन</a>
+                <a href="#contact" class="hover:text-maroonPrimary transition-colors">संपर्क</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="tel:+919352000000" class="hidden sm:inline-flex items-center gap-2 bg-pink-50 text-maroonDark text-xs font-bold py-2.5 px-4 rounded-full border border-pink-200">
+                    <i class="fa-solid fa-phone"></i> कॉल करें
+                </a>
+                <a href="#bookingModal" onclick="openBooking('General Enquiry')" class="inline-flex items-center gap-2 bg-maroonPrimary hover:bg-maroonDark text-white text-xs sm:text-sm font-bold py-2.5 px-5 rounded-full shadow-lg shadow-pink-900/30 transition">
+                    <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पूछताछ
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-sahiba text-white py-20 md:py-28 px-4 text-center relative">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-pink-200 font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full">
+                <i class="fa-solid fa-hotel"></i> बजट व ग्रुप स्टे के लिए अजमेर का नंबर 1 गेस्ट हाउस
+            </div>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight font-serif">
+                किफायती दाम में <br><span class="text-amber-300">प्रीमियम साफ-सफाई और आराम</span>
+            </h2>
+            <p class="text-pink-100 text-base md:text-lg max-w-2xl mx-auto">
+                डिग्गी बाजार, अजमेर में स्थित साहिबा पैलेस गेस्ट हाउस श्रद्धालुओं एवं पर्यटकों को बेहद कम बजट में आरामदायक वातानुकूलित और नॉन-AC कमरे उपलब्ध कराता है।
+            </p>
+
+            <!-- Quick Booking Card -->
+            <div class="bg-white text-slate-800 p-5 rounded-2xl shadow-2xl max-w-3xl mx-auto mt-8 border border-pink-100 text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">कमरा (Room Type)</label>
+                        <select id="sahibaRoomType" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-maroonPrimary focus:outline-none">
+                            <option value="Deluxe Double Bed AC">डिलक्स डबल Bed AC (₹1,199)</option>
+                            <option value="Family 4-Bed AC">फैमिली 4-बेड AC (₹1,799)</option>
+                            <option value="Group 6-Bed Room">ग्रुप 6-बेड कमरा (₹2,299)</option>
+                            <option value="Economy Budget Room">इकोनॉमी बजट कमरा (₹699)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">आगमन तारीख (Check-in)</label>
+                        <input type="date" id="sahibaDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-maroonPrimary focus:outline-none">
+                    </div>
+                    <div class="flex items-end">
+                        <button type="button" onclick="sendSahibaWhatsApp()" class="w-full bg-maroonPrimary hover:bg-maroonDark text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> रेट व बुकिंग पूछें
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 pt-4 text-xs sm:text-sm text-pink-200">
+                <span><i class="fa-solid fa-check text-amber-300"></i> कोई अतिरिक्त छुपा हुआ चार्ज नहीं</span>
+                <span><i class="fa-solid fa-check text-amber-300"></i> ग्रुप व जत्थे के लिए विशेष छूट</span>
+                <span><i class="fa-solid fa-check text-amber-300"></i> 24x7 गर्म पानी व वाई-फाई</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="py-12 bg-white border-b border-pink-100">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 rounded-xl bg-pink-50/50 border border-pink-100">
+                <i class="fa-solid fa-piggy-bank text-3xl text-maroonPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">सबसे किफायती दरें</h4>
+                <p class="text-xs text-slate-500 mt-1">मात्र ₹699 से रूम शुरू, परिवार के बजट में फिट</p>
+            </div>
+            <div class="p-4 rounded-xl bg-pink-50/50 border border-pink-100">
+                <i class="fa-solid fa-person-walking text-3xl text-maroonPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">दरगाह शरीफ 400m</h4>
+                <p class="text-xs text-slate-500 mt-1">डिग्गी बाजार से सीधा पैदल सुलभ मार्ग</p>
+            </div>
+            <div class="p-4 rounded-xl bg-pink-50/50 border border-pink-100">
+                <i class="fa-solid fa-users-line text-3xl text-maroonPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">बड़ा ग्रुप स्टे</h4>
+                <p class="text-xs text-slate-500 mt-1">4 से 10 लोगों के ग्रुप के लिए बड़े कमरे उपलब्ध</p>
+            </div>
+            <div class="p-4 rounded-xl bg-pink-50/50 border border-pink-100">
+                <i class="fa-solid fa-hands-bubbles text-3xl text-maroonPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">स्वच्छ बेडशीट व कमरे</h4>
+                <p class="text-xs text-slate-500 mt-1">हर चेक-इन पर ताज़ा बेडशीट व सैनिटाइज्ड रूम</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=900&q=80" alt="Sahiba Palace Guest House Rooms" class="rounded-2xl shadow-xl w-full h-[380px] object-cover">
+            </div>
+            <div class="space-y-5">
+                <span class="text-maroonPrimary font-bold text-xs uppercase tracking-wider bg-pink-50 px-3 py-1 rounded-full border border-pink-200">
+                    Diggi Bazar Hospitality
+                </span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif leading-tight">
+                    साहिबा पैलेस गेस्ट हाउस — आपका अपना बजट-फ्रेंडली आशियाना
+                </h3>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                    डिग्गी बाजार, अजमेर में स्थित साहिबा पैलेस गेस्ट हाउस उन सभी श्रद्धालुओं और पर्यटकों के लिए एक बेहतरीन विकल्प है जो कम खर्च में साफ, सुरक्षित और सुविधाजनक कमरा चाहते हैं।
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-maroonPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">दरगाह शरीफ एवं रेलवे स्टेशन दोनों तक आसान सीधी पहुंच</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-maroonPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">महिलाओं और पारिवारिक पर्यटकों के लिए पूरी तरह सुरक्षित</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-maroonPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">24 घंटे रिसेप्शन व रूम सर्विस सुविधा उपलब्ध</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="py-16 bg-pink-50/40 border-y border-pink-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                <span class="text-maroonPrimary font-bold text-xs uppercase tracking-wider">Rooms & Pricing</span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif">कमरे एवं किफायती किराया</h3>
+                <p class="text-slate-600 text-xs sm:text-sm">होटल से सीधा संपर्क करने पर किसी बिचौलिए या ऐप की कोई फीस नहीं लगेगी।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Room 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-pink-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=700&q=80" alt="Deluxe Double Bed AC" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">डिलक्स डबल Bed AC</h4>
+                                <span class="text-2xl font-black text-maroonPrimary">₹1,199<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">कपल्स व 2 गेस्ट्स के लिए साफ सुथरा एसी कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-snowflake text-maroonPrimary"></i> चिल्ड एयर कंडीशनर</li>
+                                <li><i class="fa-solid fa-shower text-maroonPrimary"></i> 24 घंटे गर्म पानी गीजर</li>
+                                <li><i class="fa-solid fa-wifi text-maroonPrimary"></i> हाई-स्पीड फ्री वाई-फाई</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('डिलक्स डबल Bed AC (₹1,199)')" class="w-full bg-maroonPrimary hover:bg-maroonDark text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 2 (Family Highlight) -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border-2 border-maroonPrimary flex flex-col relative">
+                    <div class="bg-maroonPrimary text-white text-[11px] font-bold text-center py-1 uppercase tracking-wider">
+                        फैमिली व जायरीन स्पेशल (Most Popular)
+                    </div>
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=700&q=80" alt="Family 4-Bed AC" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">फैमिली 4-बेड AC रूम</h4>
+                                <span class="text-2xl font-black text-maroonPrimary">₹1,799<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">4 लोगों के परिवार के लिए 2 डबल बेड का बड़ा कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-users text-maroonPrimary"></i> 4 से 5 लोगों के लिए पर्याप्त जगह</li>
+                                <li><i class="fa-solid fa-tv text-maroonPrimary"></i> LED टीवी व अटैच बाथरूम</li>
+                                <li><i class="fa-solid fa-bell-concierge text-maroonPrimary"></i> रूम सर्विस एवं साफ-सफाई</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('फैमिली 4-बेड AC रूम (₹1,799)')" class="w-full bg-maroonPrimary hover:bg-maroonDark text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-md shadow-pink-900/30">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> अभी बुक करें (WhatsApp)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-pink-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=700&q=80" alt="Group 6-Bed Room" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">ग्रुप 6-बेड कमरा</h4>
+                                <span class="text-2xl font-black text-maroonPrimary">₹2,299<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">दोस्तों या जत्थे के लिए विशाल कमरा, मात्र ₹380 प्रति व्यक्ति।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-bed text-maroonPrimary"></i> 3 डबल बेड व अतिरिक्त गद्दे</li>
+                                <li><i class="fa-solid fa-bath text-maroonPrimary"></i> स्वच्छ टॉयलेट व गर्म पानी</li>
+                                <li><i class="fa-solid fa-shield text-maroonPrimary"></i> सामान हेतु सुरक्षित व्यवस्था</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('ग्रुप 6-बेड कमरा (₹2,299)')" class="w-full bg-maroonPrimary hover:bg-maroonDark text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="location" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <span class="text-maroonPrimary font-bold text-xs uppercase tracking-wider">Address & Contacts</span>
+                    <h3 class="text-3xl font-extrabold text-slate-900 font-serif">साहिबा पैलेस गेस्ट हाउस कैसे पहुंचें?</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        डिग्गी बाजार, अजमेर में स्थित होने के कारण यह रेलवे स्टेशन और दरगाह शरीफ के मध्य स्थित है। ऑटो या ई-रिक्शा से सीधे डिग्गी बाजार पहुंचा जा सकता है।
+                    </p>
+                    <div class="bg-pink-50/60 p-4 rounded-xl border border-pink-200 text-sm space-y-2">
+                        <p><strong><i class="fa-solid fa-location-dot text-maroonPrimary"></i> पता:</strong> डिग्गी बाजार, दरगाह शरीफ के निकट, अजमेर, राजस्थान 305001</p>
+                        <p><strong><i class="fa-solid fa-phone text-maroonPrimary"></i> मोबाइल:</strong> +91 93520 XXXXX / +91 98280 XXXXX</p>
+                        <p><strong><i class="fa-solid fa-clock text-maroonPrimary"></i> सुविधा:</strong> 24 घंटे चेक-इन एवं हेल्प डेस्क</p>
+                    </div>
+                </div>
+                <div class="h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.309322836262!2d74.6234!3d26.4566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6e47fa41c09%3A0xc39f88636a0c0ad!2sAjmer%20Sharif%20Dargah!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-maroonDark text-pink-200 py-10 text-center text-xs">
+        <p class="font-serif text-white font-bold text-lg mb-2">SAHIBA PALACE GUEST HOUSE - DIGGI BAZAR, AJMER</p>
+        <p class="text-pink-300">कम बजट में सबसे सुरक्षित और पारिवारिक आतिथ्य।</p>
+        <p class="mt-4 text-pink-400/60">© 2026 Sahiba Palace Guest House. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative text-left">
+            <button onclick="closeBooking()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold">✕</button>
+            <h4 class="text-xl font-bold text-slate-900 font-serif mb-1">कमरा बुक करें / पूछताछ</h4>
+            <p class="text-xs text-slate-500 mb-4">साहिबा पैलेस गेस्ट हाउस (डिग्गी बाजार, अजमेर)</p>
+
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">आपका नाम</label>
+                    <input type="text" id="sbName" placeholder="नाम लिखें" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-maroonPrimary focus:outline-none">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Check-in तारीख</label>
+                        <input type="date" id="sbDate" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-maroonPrimary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">कुल व्यक्ति</label>
+                        <input type="number" id="sbGuests" value="2" min="1" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">कमरे का प्रकार</label>
+                    <input type="text" id="sbRoom" readonly class="w-full bg-slate-100 border border-slate-300 rounded-lg p-2.5 text-sm font-medium text-slate-700">
+                </div>
+                <button onclick="submitSahibaWhatsApp()" class="w-full bg-maroonPrimary hover:bg-maroonDark text-white font-bold py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 mt-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-xl text-emerald-300"></i> व्हाट्सएप पर मैसेज भेजें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openBooking(roomName) {
+            document.getElementById('sbRoom').value = roomName || 'General Enquiry';
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBooking() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+        function submitSahibaWhatsApp() {
+            const name = document.getElementById('sbName').value || 'Guest';
+            const date = document.getElementById('sbDate').value || 'Not specified';
+            const guests = document.getElementById('sbGuests').value || '2';
+            const room = document.getElementById('sbRoom').value;
+
+            const text = `नमस्ते Sahiba Palace Guest House (डिग्गी बाजार, अजमेर),\nमेरा नाम ${name} है।\nमुझे ${room} बुक करना है।\nतारीख: ${date}\nयात्री संख्या: ${guests}\nकृपया रूम उपलब्धता एवं फाइनल डिस्काउंट रेट बताएं।`;
+            const url = `https://wa.me/919352000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+            closeBooking();
+        }
+        function sendSahibaWhatsApp() {
+            const date = document.getElementById('sahibaDate').value || 'Not set';
+            const room = document.getElementById('sahibaRoomType').value;
+            const text = `नमस्ते Sahiba Palace Guest House Ajmer,\nकमरा: ${room}\nCheck-in: ${date}\nकृपया बेस्ट ग्रुप/रूम डिस्काउंट रेट बताएं।`;
+            const url = `https://wa.me/919352000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

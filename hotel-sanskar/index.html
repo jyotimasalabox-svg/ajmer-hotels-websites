@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Sanskar - पड़ाव / सिनेमा रोड, अजमेर | शुद्ध शाकाहारी पारिवारिक होटल</title>
+    <meta name="description" content="Hotel Sanskar, Parao / Cinema Road, Ajmer. 100% Pure Vegetarian, peaceful family hotel close to Ajmer Station and Market. AC & Budget Rooms.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&family=Rozha+One&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        saffronDark: '#9A3412',
+                        saffronPrimary: '#EA580C',
+                        saffronLight: '#FED7AA',
+                        sandBg: '#FFFBEB',
+                    },
+                    fontFamily: {
+                        sans: ['Mukta', 'sans-serif'],
+                        serif: ['Rozha One', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-sanskar {
+            background: linear-gradient(rgba(154, 52, 18, 0.88), rgba(124, 45, 18, 0.94)), url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-[#FAF8F5] antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-saffronDark text-amber-100 text-xs py-2 px-4 border-b border-orange-900">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-om text-amber-300"></i> "अतिथि देवो भव:" — शुद्ध शाकाहारी एवं पारिवारिक वातावरण
+            </span>
+            <div class="hidden sm:flex items-center gap-4 text-xs font-semibold">
+                <span><i class="fa-solid fa-phone text-amber-300"></i> फोन: +91 94142 XXXXX</span>
+                <span>पड़ाव / सिनेमा रोड, अजमेर</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-orange-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-saffronPrimary text-white flex items-center justify-center font-serif text-2xl font-bold shadow-md">
+                    सं
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-slate-900 tracking-tight font-serif">
+                        होटल संस्कार
+                    </h1>
+                    <p class="text-xs text-saffronPrimary font-bold uppercase tracking-wider">Hotel Sanskar (Cinema Road, Parao, Ajmer)</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#about" class="hover:text-saffronPrimary transition-colors">हमारे बारे में</a>
+                <a href="#rooms" class="hover:text-saffronPrimary transition-colors">कमरे व दरें</a>
+                <a href="#features" class="hover:text-saffronPrimary transition-colors">संस्कार की विशेषताएं</a>
+                <a href="#location" class="hover:text-saffronPrimary transition-colors">पता व लोकेशन</a>
+                <a href="#contact" class="hover:text-saffronPrimary transition-colors">संपर्क</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="tel:+919414200000" class="hidden sm:inline-flex items-center gap-2 bg-orange-50 text-saffronDark text-xs font-bold py-2.5 px-4 rounded-full border border-orange-200">
+                    <i class="fa-solid fa-phone"></i> कॉल करें
+                </a>
+                <a href="#bookingModal" onclick="openBooking('General Enquiry')" class="inline-flex items-center gap-2 bg-saffronPrimary hover:bg-orange-700 text-white text-xs sm:text-sm font-bold py-2.5 px-5 rounded-full shadow-lg shadow-orange-600/30 transition">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> रूम बुक करें
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-sanskar text-white py-20 md:py-28 px-4 text-center relative">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-amber-200 font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full">
+                <i class="fa-solid fa-location-dot"></i> रेलवे स्टेशन एवं मुख्य बाजार के निकट (पड़ाव चौराहा)
+            </div>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight font-serif">
+                पारंपरिक राजस्थानी सत्कार <br><span class="text-amber-300">100% शुद्ध शाकाहारी वातावरण</span>
+            </h2>
+            <p class="text-orange-100 text-base md:text-lg max-w-2xl mx-auto">
+                परिवार, बुजुर्गों एवं व्यापारियों के लिए अजमेर का सबसे शांत और सुव्यवस्थित बजट होटल। घर जैसा शुद्ध भोजन और आत्मीय सेवा।
+            </p>
+
+            <!-- Quick Booking Card -->
+            <div class="bg-white text-slate-800 p-5 rounded-2xl shadow-2xl max-w-3xl mx-auto mt-8 border border-orange-100 text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">कमरा (Room Type)</label>
+                        <select id="sanskarRoomType" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-saffronPrimary focus:outline-none">
+                            <option value="संस्कार डीलक्स AC रूम">संस्कार डीलक्स AC रूम (₹1,399)</option>
+                            <option value="सुपर डीलक्स फैमिली रूम">सुपर डीलक्स फैमिली रूम (₹1,899)</option>
+                            <option value="इकोनॉमी Non-AC रूम">इकोनॉमी Non-AC रूम (₹850)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Check-in तारीख</label>
+                        <input type="date" id="sanskarDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-saffronPrimary focus:outline-none">
+                    </div>
+                    <div class="flex items-end">
+                        <button type="button" onclick="sendSanskarWhatsApp()" class="w-full bg-saffronPrimary hover:bg-orange-700 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> रेट व बुकिंग कन्फर्म करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 pt-4 text-xs sm:text-sm text-orange-200">
+                <span><i class="fa-solid fa-seedling text-amber-300"></i> विशुद्ध शाकाहारी खान-पान</span>
+                <span><i class="fa-solid fa-users text-amber-300"></i> पूर्णतः फैमिली फ्रेंडली</span>
+                <span><i class="fa-solid fa-car text-amber-300"></i> पार्किंग व लिफ्ट सुविधा</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="py-12 bg-white border-b border-orange-100">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 rounded-xl bg-orange-50/50 border border-orange-100">
+                <i class="fa-solid fa-leaf text-3xl text-saffronPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">शुद्ध शाकाहारी</h4>
+                <p class="text-xs text-slate-500 mt-1">सात्विक, स्वच्छ और स्वादिष्ट राजस्थानी व उत्तर भारतीय भोजन</p>
+            </div>
+            <div class="p-4 rounded-xl bg-orange-50/50 border border-orange-100">
+                <i class="fa-solid fa-train text-3xl text-saffronPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">स्टेशन से 700 मीटर</h4>
+                <p class="text-xs text-slate-500 mt-1">पड़ाव-सिनेमा रोड पर स्थित, 5 मिनट में सुलभ</p>
+            </div>
+            <div class="p-4 rounded-xl bg-orange-50/50 border border-orange-100">
+                <i class="fa-solid fa-bag-shopping text-3xl text-saffronPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">मार्केट के बीच</h4>
+                <p class="text-xs text-slate-500 mt-1">कपड़ा बाजार, नया बाजार व चूड़ी बाजार पैदल दूरी पर</p>
+            </div>
+            <div class="p-4 rounded-xl bg-orange-50/50 border border-orange-100">
+                <i class="fa-solid fa-spa text-3xl text-saffronPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">शांत वातावरण</h4>
+                <p class="text-xs text-slate-500 mt-1">भीड़भाड़ से हटकर सुकून भरा सुरक्षित स्टे</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=900&q=80" alt="Hotel Sanskar Room" class="rounded-2xl shadow-xl w-full h-[380px] object-cover border-4 border-white">
+            </div>
+            <div class="space-y-5">
+                <span class="text-saffronPrimary font-bold text-xs uppercase tracking-wider bg-orange-50 px-3 py-1 rounded-full border border-orange-200">
+                    पारिवारिक परंपरा
+                </span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif leading-tight">
+                    होटल संस्कार — जहाँ हर अतिथि का स्वागत अपने परिवार की तरह होता है
+                </h3>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                    होटल संस्कार अजमेर के पड़ाव / सिनेमा रोड क्षेत्र में स्थित है। हमारे यहाँ आने वाले श्रद्धालुओं, पर्यटकों और बिजनेस क्लास यात्रियों को शांत, सभ्य और सुरक्षित माहौल मिलता है।
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-saffronPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">पुष्कर तीर्थ एवं सोनी जी की नसियां दर्शन हेतु सीधी कैब व्यवस्था</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-saffronPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">गर्म-ठंडा पानी, LED TV एवं हाई-स्पीड वाईफाई हर कमरे में</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-saffronPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">वरिष्ठ नागरिकों व महिलाओं के लिए विशेष ध्यान व सहायता</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="py-16 bg-orange-50/40 border-y border-orange-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                <span class="text-saffronPrimary font-bold text-xs uppercase tracking-wider">कमरे व शुल्क</span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif">आरामदायक कमरे और वाजिब दरें</h3>
+                <p class="text-slate-600 text-xs sm:text-sm">ऑनलाइन बुकिंग पोर्टल्स के भारी कमीशन से बचें, सीधा बुक करें।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Room 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-orange-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=700&q=80" alt="Deluxe Room" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">संस्कार डीलक्स AC रूम</h4>
+                                <span class="text-2xl font-black text-saffronPrimary">₹1,399<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">2 वयस्कों के लिए आधुनिक सुविधाओं से सुसज्जित कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-snowflake text-saffronPrimary"></i> स्प्लिट AC व आरामदायक गद्दे</li>
+                                <li><i class="fa-solid fa-shower text-saffronPrimary"></i> 24 घंटे गर्म पानी गीजर</li>
+                                <li><i class="fa-solid fa-wifi text-saffronPrimary"></i> फ्री हाई-स्पीड वाईफाई</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('संस्कार डीलक्स AC रूम (₹1,399)')" class="w-full bg-saffronPrimary hover:bg-orange-700 text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border-2 border-saffronPrimary flex flex-col relative">
+                    <div class="bg-saffronPrimary text-white text-[11px] font-bold text-center py-1 uppercase tracking-wider">
+                        फैमिली स्पेशल (Best for Family)
+                    </div>
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Super Deluxe Family" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">सुपर डीलक्स फैमिली रूम</h4>
+                                <span class="text-2xl font-black text-saffronPrimary">₹1,899<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">परिवार के 4 सदस्यों हेतु 2 डबल बेड व बैठक व्यवस्था।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-users text-saffronPrimary"></i> 4 सदस्यों के लिए विशाल स्पेस</li>
+                                <li><i class="fa-solid fa-tv text-saffronPrimary"></i> स्मार्ट LED टीवी व डाइनिंग टेबल</li>
+                                <li><i class="fa-solid fa-bell-concierge text-saffronPrimary"></i> शुद्ध शाकाहारी रूम सर्विस</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('सुपर डीलक्स फैमिली रूम (₹1,899)')" class="w-full bg-saffronPrimary hover:bg-orange-700 text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-md shadow-orange-600/30">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> अभी बुक करें (WhatsApp)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-orange-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=700&q=80" alt="Economy Non-AC" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">इकोनॉमी Non-AC रूम</h4>
+                                <span class="text-2xl font-black text-saffronPrimary">₹850<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">बजट ट्रेवलर्स व सिंगल/डबल गेस्ट्स के लिए उत्तम।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-fan text-saffronPrimary"></i> हवादार व स्वच्छ कमरा</li>
+                                <li><i class="fa-solid fa-bath text-saffronPrimary"></i> अटैच साफ-सुथरा वॉशरूम</li>
+                                <li><i class="fa-solid fa-clock text-saffronPrimary"></i> 24 घंटे रिसेप्शन सेवा</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('इकोनॉमी Non-AC रूम (₹850)')" class="w-full bg-saffronPrimary hover:bg-orange-700 text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="location" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <span class="text-saffronPrimary font-bold text-xs uppercase tracking-wider">लोकेशन एवं पता</span>
+                    <h3 class="text-3xl font-extrabold text-slate-900 font-serif">होटल संस्कार का पता</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        होटल संस्कार अजमेर रेलवे स्टेशन से कुछ ही दूरी पर पड़ाव / सिनेमा रोड पर स्थित है। यहाँ से टैक्सी, ऑटो और सभी स्थानीय साधन आसानी से उपलब्ध हैं।
+                    </p>
+                    <div class="bg-orange-50/60 p-4 rounded-xl border border-orange-200 text-sm space-y-2">
+                        <p><strong><i class="fa-solid fa-location-dot text-saffronPrimary"></i> पता:</strong> पड़ाव चौराहा, सिनेमा रोड, अजमेर जंक्शन के नजदीक, अजमेर, राजस्थान 305001</p>
+                        <p><strong><i class="fa-solid fa-phone text-saffronPrimary"></i> फोन:</strong> +91 94142 XXXXX / 0145-2XXXXXX</p>
+                        <p><strong><i class="fa-solid fa-envelope text-saffronPrimary"></i> ईमेल:</strong> info@hotelsanskarajmer.com</p>
+                    </div>
+                </div>
+                <div class="h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.6245107049814!2d74.6396!3d26.4510!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6e2578fa239%3A0x6b4efb4dfba47fef!2sAjmer%20Junction!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-saffronDark text-orange-200 py-10 text-center text-xs">
+        <p class="font-serif text-white font-bold text-lg mb-2">होटल संस्कार (HOTEL SANSKAR) - AJMER</p>
+        <p class="text-orange-200">आपकी अजमेर यात्रा को सुखद और यादगार बनाने के लिए प्रतिबद्ध।</p>
+        <p class="mt-4 text-orange-300/60">© 2026 Hotel Sanskar. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative text-left">
+            <button onclick="closeBooking()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold">✕</button>
+            <h4 class="text-xl font-bold text-slate-900 font-serif mb-1">कमरा बुक करें / इन्क्वायरी</h4>
+            <p class="text-xs text-slate-500 mb-4">होटल संस्कार (पड़ाव, अजमेर)</p>
+
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">आपका नाम</label>
+                    <input type="text" id="sName" placeholder="नाम लिखें" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-saffronPrimary focus:outline-none">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Check-in तारीख</label>
+                        <input type="date" id="sDate" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-saffronPrimary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">कुल व्यक्ति</label>
+                        <input type="number" id="sGuests" value="2" min="1" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">कमरे का प्रकार</label>
+                    <input type="text" id="sRoom" readonly class="w-full bg-slate-100 border border-slate-300 rounded-lg p-2.5 text-sm font-medium text-slate-700">
+                </div>
+                <button onclick="submitSanskarWhatsApp()" class="w-full bg-saffronPrimary hover:bg-orange-700 text-white font-bold py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 mt-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> व्हाट्सएप पर मैसेज भेजें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openBooking(roomName) {
+            document.getElementById('sRoom').value = roomName || 'General Enquiry';
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBooking() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+        function submitSanskarWhatsApp() {
+            const name = document.getElementById('sName').value || 'Guest';
+            const date = document.getElementById('sDate').value || 'Not specified';
+            const guests = document.getElementById('sGuests').value || '2';
+            const room = document.getElementById('sRoom').value;
+
+            const text = `नमस्ते Hotel Sanskar (पड़ाव, अजमेर),\nमेरा नाम ${name} है।\nमुझे ${room} बुक करना है।\nआगमन तारीख: ${date}\nयात्री संख्या: ${guests}\nकृपया रूम उपलब्धता एवं फाइनल रेट बताएं।`;
+            const url = `https://wa.me/919414200000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+            closeBooking();
+        }
+        function sendSanskarWhatsApp() {
+            const date = document.getElementById('sanskarDate').value || 'Not set';
+            const room = document.getElementById('sanskarRoomType').value;
+            const text = `नमस्ते Hotel Sanskar Ajmer,\nकमरा: ${room}\nतारीख: ${date}\nकृपया बुकिंग कन्फर्मेशन एवं बेस्ट डिस्काउंट रेट बताएं।`;
+            const url = `https://wa.me/919414200000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

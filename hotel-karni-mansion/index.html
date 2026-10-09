@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Karni Mansion - Kutchery Road, Ajmer | Heritage Stay & Royal Comfort</title>
+    <meta name="description" content="Hotel Karni Mansion, Kutchery Road Ajmer. Experience Rajputana heritage, peaceful surroundings, spacious rooms, safe parking, near Ana Sagar Lake.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        heritageCrimson: '#7F1D1D',
+                        heritageRed: '#991B1B',
+                        heritageGold: '#D97706',
+                        goldSoft: '#FEF3C7',
+                        sandMansion: '#FAF5EF',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Marcellus', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-karni {
+            background: linear-gradient(rgba(127, 29, 29, 0.88), rgba(153, 27, 27, 0.92)), url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-sandMansion antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-heritageCrimson text-amber-100 text-xs py-2 px-4 border-b border-red-950">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-gem text-heritageGold"></i> <strong>होटल करणी मेंशन:</strong> शांत वातावरण, हेरिटेज अनुभव और सुरक्षित पार्किंग (कचहरी रोड)
+            </span>
+            <div class="hidden sm:flex items-center gap-4 text-xs font-semibold">
+                <span><i class="fa-solid fa-phone text-heritageGold"></i> +91 94140 XXXXX</span>
+                <span>कचहरी रोड, अजमेर</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-heritageCrimson to-heritageRed text-heritageGold flex items-center justify-center font-serif text-2xl font-bold shadow-md border border-amber-300/40">
+                    KM
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-slate-900 tracking-tight font-serif">
+                        HOTEL KARNI MANSION
+                    </h1>
+                    <p class="text-xs text-heritageRed font-bold uppercase tracking-wider">Heritage Ambience • Kutchery Road, Ajmer</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#about" class="hover:text-heritageRed transition-colors">परिचय</a>
+                <a href="#rooms" class="hover:text-heritageRed transition-colors">कमरे व दरें</a>
+                <a href="#amenities" class="hover:text-heritageRed transition-colors">सुविधाएँ व पार्किंग</a>
+                <a href="#location" class="hover:text-heritageRed transition-colors">लोकेशन</a>
+                <a href="#contact" class="hover:text-heritageRed transition-colors">संपर्क</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="tel:+919414000000" class="hidden sm:inline-flex items-center gap-2 bg-amber-50 text-heritageRed text-xs font-bold py-2.5 px-4 rounded-full border border-amber-200">
+                    <i class="fa-solid fa-phone"></i> कॉल करें
+                </a>
+                <a href="#bookingModal" onclick="openBooking('General Enquiry')" class="inline-flex items-center gap-2 bg-heritageRed hover:bg-heritageCrimson text-white text-xs sm:text-sm font-bold py-2.5 px-5 rounded-full shadow-lg shadow-red-900/30 transition">
+                    <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> डायरेक्ट बुक करें
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-karni text-white py-20 md:py-28 px-4 text-center relative">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full">
+                <i class="fa-solid fa-square-parking"></i> सुरक्षित प्राइवेट पार्किंग व खुला हेरिटेज परिसर
+            </div>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight font-serif">
+                अजमेर में राजपूताना सत्कार <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-400">आरामदायक व शांत हेरिटेज स्टे</span>
+            </h2>
+            <p class="text-amber-100 text-base md:text-lg max-w-2xl mx-auto">
+                कचहरी रोड के प्रतिष्ठित व शांत क्षेत्र में स्थित। विशाल कमरे, खुला लॉन, शांत वातावरण और आना सागर झील व पुष्कर मार्ग से सुगम जुड़ाव।
+            </p>
+
+            <!-- Quick Booking Card -->
+            <div class="bg-white text-slate-800 p-5 rounded-2xl shadow-2xl max-w-3xl mx-auto mt-8 border border-amber-100 text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">कमरा (Room Type)</label>
+                        <select id="karniRoomType" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-heritageRed focus:outline-none">
+                            <option value="Heritage Deluxe AC">हेरिटेज डीलक्स AC (₹1,699)</option>
+                            <option value="Royal Mansion Suite">रॉयल मेंशन सूट (₹2,399)</option>
+                            <option value="Family Heritage Suite">फैमिली हेरिटेज सूट (₹2,999)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Check-in तारीख</label>
+                        <input type="date" id="karniDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-heritageRed focus:outline-none">
+                    </div>
+                    <div class="flex items-end">
+                        <button type="button" onclick="sendKarniWhatsApp()" class="w-full bg-heritageRed hover:bg-heritageCrimson text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> बेस्ट रेट चेक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 pt-4 text-xs sm:text-sm text-amber-200">
+                <span><i class="fa-solid fa-check text-heritageGold"></i> प्राइवेट व्हीकल पार्किंग सुविधा</span>
+                <span><i class="fa-solid fa-check text-heritageGold"></i> भीड़भाड़ और शोरगुल से दूर शांत माहौल</span>
+                <span><i class="fa-solid fa-check text-heritageGold"></i> आना सागर चौपाटी से मात्र 5 मिनट</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="py-12 bg-white border-b border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 rounded-xl bg-amber-50/50 border border-amber-100">
+                <i class="fa-solid fa-square-parking text-3xl text-heritageRed mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">सुरक्षित पार्किंग</h4>
+                <p class="text-xs text-slate-500 mt-1">अपनी कार और बाइक के लिए इन-हाउस पार्किंग</p>
+            </div>
+            <div class="p-4 rounded-xl bg-amber-50/50 border border-amber-100">
+                <i class="fa-solid fa-water text-3xl text-heritageRed mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">आना सागर के निकट</h4>
+                <p class="text-xs text-slate-500 mt-1">शाम की सैर व चौपाटी मात्र 1.5 किमी की दूरी पर</p>
+            </div>
+            <div class="p-4 rounded-xl bg-amber-50/50 border border-amber-100">
+                <i class="fa-solid fa-tree text-3xl text-heritageRed mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">खुला व हरा-भरा परिसर</h4>
+                <p class="text-xs text-slate-500 mt-1">सुबह की ताज़ा हवा और शांतिपूर्ण वातावरण</p>
+            </div>
+            <div class="p-4 rounded-xl bg-amber-50/50 border border-amber-100">
+                <i class="fa-solid fa-shield-halved text-3xl text-heritageRed mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">सुरक्षित सिविल लाइंस क्षेत्र</h4>
+                <p class="text-xs text-slate-500 mt-1">प्रशासनिक क्षेत्र के निकट, अत्यंत सुरक्षित इलाका</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80" alt="Hotel Karni Mansion Ajmer" class="rounded-2xl shadow-xl w-full h-[380px] object-cover border-4 border-white">
+            </div>
+            <div class="space-y-5">
+                <span class="text-heritageRed font-bold text-xs uppercase tracking-wider bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+                    Heritage Hospitality
+                </span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif leading-tight">
+                    होटल करणी मेंशन — राजस्थानी गरिमा और सुकून का अनुभव
+                </h3>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                    होटल करणी मेंशन (Hotel Karni Mansion) कचहरी रोड, अजमेर पर स्थित एक शांत और प्रतिष्ठित प्रॉपर्टी है। शहर के तंग बाजारों की भीड़भाड़ और गाड़ियों के हॉर्न से दूर, यह प्रॉपर्टी आपको सुकून भरी नींद, पर्याप्त वेंटिलेशन और राजस्थानी मेहमाननवाजी देती है।
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-heritageRed"></i>
+                        <span class="text-sm font-semibold text-slate-700">पुष्कर तीर्थ एवं दरगाह शरीफ के लिए सहज आवागमन</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-heritageRed"></i>
+                        <span class="text-sm font-semibold text-slate-700">विशाल हेरिटेज कमरे, ऊंची छतें और उत्तम साज-सज्जा</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-heritageRed"></i>
+                        <span class="text-sm font-semibold text-slate-700">घरेलू और लजीज भोजन सेवा उपलब्ध</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="py-16 bg-amber-50/40 border-y border-amber-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                <span class="text-heritageRed font-bold text-xs uppercase tracking-wider">Rooms & Suites</span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif">विशाल कमरे और हेरिटेज सुइट्स</h3>
+                <p class="text-slate-600 text-xs sm:text-sm">सीधी बुकिंग पर सर्वोत्तम डिस्काउंट और स्पेशल फेसिलिटी उपलब्ध।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Room 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-amber-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=700&q=80" alt="Heritage Deluxe AC" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">हेरिटेज डीलक्स AC</h4>
+                                <span class="text-2xl font-black text-heritageRed">₹1,699<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">2 वयस्कों के लिए विशाल और शांत वातानुकूलित कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-snowflake text-heritageRed"></i> स्पिलिट AC व पंखा</li>
+                                <li><i class="fa-solid fa-tv text-heritageRed"></i> 32" LED टीवी व फ्री वाईफाई</li>
+                                <li><i class="fa-solid fa-shower text-heritageRed"></i> 24 घंटे गर्म-ठंडा पानी</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('हेरिटेज डीलक्स AC (₹1,699)')" class="w-full bg-heritageRed hover:bg-heritageCrimson text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 2 (Highlight) -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border-2 border-heritageRed flex flex-col relative">
+                    <div class="bg-heritageRed text-white text-[11px] font-bold text-center py-1 uppercase tracking-wider">
+                        शाही अनुभव (Royal Stay)
+                    </div>
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=700&q=80" alt="Royal Mansion Suite" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">रॉयल मेंशन सूट</h4>
+                                <span class="text-2xl font-black text-heritageRed">₹2,399<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">पारंपरिक नक्काशीदार फर्नीचर, सोफा बैठक व गार्डन व्यू।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-bed text-heritageRed"></i> हेरिटेज किंग साइज चारपाई बेड</li>
+                                <li><i class="fa-solid fa-couch text-heritageRed"></i> सिटिंग एरिया व चाय की व्यवस्था</li>
+                                <li><i class="fa-solid fa-shield text-heritageRed"></i> गार्डन व्यू बालकनी</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('रॉयल मेंशन सूट (₹2,399)')" class="w-full bg-heritageRed hover:bg-heritageCrimson text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-md shadow-red-900/30">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> अभी बुक करें (WhatsApp)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-amber-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Family Heritage Suite" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">फैमिली हेरिटेज सूट</h4>
+                                <span class="text-2xl font-black text-heritageRed">₹2,999<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">परिवार के 4 से 6 सदस्यों के लिए 2 बड़े डबल बेड रूम।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-users text-heritageRed"></i> बड़े परिवार के लिए सर्वोत्तम</li>
+                                <li><i class="fa-solid fa-bath text-heritageRed"></i> विशाल अटैच बाथरूम व ड्रेसिंग एरिया</li>
+                                <li><i class="fa-solid fa-car text-heritageRed"></i> गाड़ी की फ्री सुरक्षित पार्किंग</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('फैमिली हेरिटेज सूट (₹2,999)')" class="w-full bg-heritageRed hover:bg-heritageCrimson text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="location" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <span class="text-heritageRed font-bold text-xs uppercase tracking-wider">Location & Address</span>
+                    <h3 class="text-3xl font-extrabold text-slate-900 font-serif">होटल करणी मेंशन का पता</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        होटल करणी मेंशन अजमेर के कचहरी रोड पर स्थित है, जो आना सागर झील, कलेक्ट्रेट और सिविल लाइंस के पास है। रेलवे स्टेशन से यहाँ 7-8 मिनट में पहुंचा जा सकता है।
+                    </p>
+                    <div class="bg-amber-50/60 p-4 rounded-xl border border-amber-200 text-sm space-y-2">
+                        <p><strong><i class="fa-solid fa-location-dot text-heritageRed"></i> पता:</strong> कचहरी रोड, सिविल लाइंस के पास, अजमेर, राजस्थान 305001</p>
+                        <p><strong><i class="fa-solid fa-phone text-heritageRed"></i> मोबाइल:</strong> +91 94140 XXXXX / 0145-2XXXXXX</p>
+                        <p><strong><i class="fa-solid fa-envelope text-heritageRed"></i> ईमेल:</strong> info@hotelkarnimansion.com</p>
+                    </div>
+                </div>
+                <div class="h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.2185107049814!2d74.6300!3d26.4600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6e2578fa239%3A0x6b4efb4dfba47fef!2sKutchery%20Road%20Ajmer!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-heritageCrimson text-amber-200 py-10 text-center text-xs">
+        <p class="font-serif text-white font-bold text-lg mb-2">HOTEL KARNI MANSION - KUTCHERY ROAD, AJMER</p>
+        <p class="text-amber-200">Heritage Comfort, Peaceful Stay & Authentic Rajasthani Hospitality.</p>
+        <p class="mt-4 text-amber-300/60">© 2026 Hotel Karni Mansion. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative text-left">
+            <button onclick="closeBooking()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold">✕</button>
+            <h4 class="text-xl font-bold text-slate-900 font-serif mb-1">कमरा बुक करें / पूछताछ</h4>
+            <p class="text-xs text-slate-500 mb-4">होटल करणी मेंशन (कचहरी रोड, अजमेर)</p>
+
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">आपका नाम</label>
+                    <input type="text" id="kmName" placeholder="नाम लिखें" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-heritageRed focus:outline-none">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Check-in तारीख</label>
+                        <input type="date" id="kmDate" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-heritageRed focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">कुल व्यक्ति</label>
+                        <input type="number" id="kmGuests" value="2" min="1" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">कमरे का प्रकार</label>
+                    <input type="text" id="kmRoom" readonly class="w-full bg-slate-100 border border-slate-300 rounded-lg p-2.5 text-sm font-medium text-slate-700">
+                </div>
+                <button onclick="submitKarniWhatsApp()" class="w-full bg-heritageRed hover:bg-heritageCrimson text-white font-bold py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 mt-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-xl text-emerald-300"></i> व्हाट्सएप पर मैसेज भेजें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openBooking(roomName) {
+            document.getElementById('kmRoom').value = roomName || 'General Enquiry';
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBooking() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+        function submitKarniWhatsApp() {
+            const name = document.getElementById('kmName').value || 'Guest';
+            const date = document.getElementById('kmDate').value || 'Not specified';
+            const guests = document.getElementById('kmGuests').value || '2';
+            const room = document.getElementById('kmRoom').value;
+
+            const text = `नमस्ते Hotel Karni Mansion Ajmer,\nमेरा नाम ${name} है।\nमुझे ${room} बुक करना है।\nतारीख: ${date}\nयात्री संख्या: ${guests}\nकृपया रूम उपलब्धता एवं फाइनल रेट बताएं।`;
+            const url = `https://wa.me/919414000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+            closeBooking();
+        }
+        function sendKarniWhatsApp() {
+            const date = document.getElementById('karniDate').value || 'Not set';
+            const room = document.getElementById('karniRoomType').value;
+            const text = `नमस्ते Hotel Karni Mansion,\nकमरा: ${room}\nतारीख: ${date}\nकृपया बुकिंग कन्फर्मेशन एवं डिस्काउंट रेट बताएं।`;
+            const url = `https://wa.me/919414000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

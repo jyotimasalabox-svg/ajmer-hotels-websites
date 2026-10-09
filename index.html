@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajmer Hotels Web Showcase & Client Pitch Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandDark: '#0B132B',
+                        brandPrimary: '#1C2541',
+                        brandAccent: '#3A506B',
+                        goldVibrant: '#F59E0B',
+                    },
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans min-h-screen">
+
+    <!-- Top Header -->
+    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-yellow-300 flex items-center justify-center text-slate-900 font-black text-xl shadow-lg">
+                    <i class="fa-solid fa-hotel"></i>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold tracking-tight text-white font-serif">
+                        Ajmer Hotel Websites Suite
+                    </h1>
+                    <p class="text-xs text-amber-400 font-semibold">6 लाइव प्रोफेशनल सिंगल-पेज वेबसाइट्स</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="hidden sm:inline-flex items-center gap-2 text-xs bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-3 py-1.5 rounded-full">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> 6 रेडी डेमो वेबसाइट्स
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Title -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 py-12 text-center space-y-4">
+        <span class="inline-flex items-center gap-2 bg-amber-400/10 text-amber-300 border border-amber-400/20 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider">
+            Ready-To-Pitch Demos
+        </span>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-white font-serif leading-tight">
+            अजमेर के 6 प्रमुख होटल्स की <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">अलग-अलग कस्टमाइज्ड वेबसाइट्स</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base max-w-2xl mx-auto">
+            ये सभी 6 वेबसाइट्स पूरी तरह रेस्पॉन्सिव, मोबाइल-फ्रेंडली और व्हाट्सएप डायरेक्ट बुकिंग सिस्टम से लैस हैं। आप सीधे इन लिंक्स पर क्लिक करके इन्हें होटल मालिकों को दिखा सकते हैं।
+        </p>
+    </section>
+
+    <!-- Cards Grid -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Card 1 -->
+            <div class="bg-slate-800/80 rounded-2xl overflow-hidden border border-slate-700 hover:border-amber-400/50 transition-all flex flex-col group shadow-lg hover:shadow-2xl hover:-translate-y-1">
+                <div class="p-6 border-b border-slate-700/60 bg-gradient-to-r from-slate-900 to-slate-800">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold bg-amber-400/20 text-amber-300 border border-amber-400/30 px-2.5 py-1 rounded-md">स्टेशन एरिया</span>
+                        <span class="text-xs text-slate-400"><i class="fa-solid fa-train"></i> 200m स्टेशन</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-amber-400 transition-colors">1. Hotel Pravasi Palace</h3>
+                    <p class="text-xs text-slate-400 mt-1">रेलवे स्टेशन रोड, अजमेर</p>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        शाही नेवी और गोल्ड थीम। ट्रेन से आने वाले परिवारों व यात्रियों के लिए 2 मिनट की दूरी का फायदा हाईलाइट किया गया है।
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-1.5">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> क्विक डेट और रूम टाइप बुकिंग बार</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> 3 रूम कैटेगरीज (डिलक्स, सुपर डिलक्स, 4-बेड)</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> अजमेर रेलवे स्टेशन गूगल मैप</li>
+                    </ul>
+                    <div class="pt-2 flex gap-3">
+                        <a href="hotel-pravasi-palace/index.html" target="_blank" class="flex-1 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> ओपन वेबसाइट
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="bg-slate-800/80 rounded-2xl overflow-hidden border border-slate-700 hover:border-emerald-400/50 transition-all flex flex-col group shadow-lg hover:shadow-2xl hover:-translate-y-1">
+                <div class="p-6 border-b border-slate-700/60 bg-gradient-to-r from-emerald-950/70 to-slate-800">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold bg-emerald-400/20 text-emerald-300 border border-emerald-400/30 px-2.5 py-1 rounded-md">दरगाह बाजार</span>
+                        <span class="text-xs text-slate-400"><i class="fa-solid fa-mosque"></i> 3 मिनट पैदल</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">2. Hotel Moon Sky</h3>
+                    <p class="text-xs text-slate-400 mt-1">दरगाह बाजार, ख्वाजा गरीब नवाज, अजमेर</p>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        एमराल्ड ग्रीन व हेरिटेज गोल्ड थीम। दरगाह शरीफ जियारत करने वाले जायरीनों व बड़े परिवारों के लिए विशेष रूप से डिजाइन।
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-1.5">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> जियारत गाइड व दरगाह दूरी फोकस</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> 4 से 6 बेड के बड़े फैमिली रूम्स</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> 24 घंटे गर्म पानी व लिफ्ट सुविधा</li>
+                    </ul>
+                    <div class="pt-2 flex gap-3">
+                        <a href="hotel-moon-sky/index.html" target="_blank" class="flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> ओपन वेबसाइट
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-slate-800/80 rounded-2xl overflow-hidden border border-slate-700 hover:border-orange-400/50 transition-all flex flex-col group shadow-lg hover:shadow-2xl hover:-translate-y-1">
+                <div class="p-6 border-b border-slate-700/60 bg-gradient-to-r from-orange-950/70 to-slate-800">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold bg-orange-400/20 text-orange-300 border border-orange-400/30 px-2.5 py-1 rounded-md">पड़ाव / सिनेमा रोड</span>
+                        <span class="text-xs text-slate-400"><i class="fa-solid fa-leaf"></i> 100% शुद्ध शाकाहारी</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-orange-400 transition-colors">3. Hotel Sanskar</h3>
+                    <p class="text-xs text-slate-400 mt-1">पड़ाव चौराहा, सिनेमा रोड, अजमेर</p>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        पारंपरिक केसरिया (Saffron) थीम। शुद्ध शाकाहारी भोजन, शांतिपूर्ण पारिवारिक माहौल और बाजार की निकटता।
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-1.5">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> "अतिथि देवो भव:" राजस्थानी सत्कार</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> कपड़ा बाजार व स्टेशन से 700 मीटर</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> इकोनॉमी व सुपर डीलक्स रूम्स</li>
+                    </ul>
+                    <div class="pt-2 flex gap-3">
+                        <a href="hotel-sanskar/index.html" target="_blank" class="flex-1 bg-orange-600 hover:bg-orange-500 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> ओपन वेबसाइट
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-slate-800/80 rounded-2xl overflow-hidden border border-slate-700 hover:border-pink-400/50 transition-all flex flex-col group shadow-lg hover:shadow-2xl hover:-translate-y-1">
+                <div class="p-6 border-b border-slate-700/60 bg-gradient-to-r from-pink-950/70 to-slate-800">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold bg-pink-400/20 text-pink-300 border border-pink-400/30 px-2.5 py-1 rounded-md">डिग्गी बाजार</span>
+                        <span class="text-xs text-slate-400"><i class="fa-solid fa-piggy-bank"></i> मात्र ₹699 से शुरू</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-pink-400 transition-colors">4. Sahiba Palace Guest House</h3>
+                    <p class="text-xs text-slate-400 mt-1">डिग्गी बाजार, दरगाह शरीफ के पास, अजमेर</p>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        मरून और गोल्ड थीम। कम बजट में स्वच्छ, सुरक्षित और घर जैसा स्टे। बड़े ग्रुप्स और जत्थे के लिए सर्वोत्तम विकल्प।
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-1.5">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> 6-बेड ग्रुप रूम्स (₹380/व्यक्ति)</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> नो हिडन चार्ज, डायरेक्ट व्हाट्सएप चैट</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> दरगाह शरीफ से 400 मीटर पैदल</li>
+                    </ul>
+                    <div class="pt-2 flex gap-3">
+                        <a href="sahiba-palace-guest-house/index.html" target="_blank" class="flex-1 bg-pink-700 hover:bg-pink-600 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> ओपन वेबसाइट
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="bg-slate-800/80 rounded-2xl overflow-hidden border border-slate-700 hover:border-indigo-400/50 transition-all flex flex-col group shadow-lg hover:shadow-2xl hover:-translate-y-1">
+                <div class="p-6 border-b border-slate-700/60 bg-gradient-to-r from-indigo-950/70 to-slate-800">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold bg-indigo-400/20 text-indigo-300 border border-indigo-400/30 px-2.5 py-1 rounded-md">स्टेशन व दरगाह रोड</span>
+                        <span class="text-xs text-slate-400"><i class="fa-solid fa-star"></i> आधुनिक कम्फर्ट</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">5. Hotel Rich Comfort</h3>
+                    <p class="text-xs text-slate-400 mt-1">स्टेशन रोड / दरगाह रोड, अजमेर</p>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        रॉयल इंडिगो और सफायर ब्लू थीम। मॉडर्न इंटीरियर्स, हाई-स्पीड वाईफाई और कॉर्पोरेट व प्रीमियम टूरिस्ट्स के लिए परफेक्ट।
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-1.5">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> एग्जीक्यूटिव क्लब AC व रॉयल सुइट्स</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> आधुनिक लिफ्ट व पॉवर बैकअप</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> प्राइम कनेक्टिंग लोकेशन</li>
+                    </ul>
+                    <div class="pt-2 flex gap-3">
+                        <a href="hotel-rich-comfort/index.html" target="_blank" class="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> ओपन वेबसाइट
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="bg-slate-800/80 rounded-2xl overflow-hidden border border-slate-700 hover:border-red-400/50 transition-all flex flex-col group shadow-lg hover:shadow-2xl hover:-translate-y-1">
+                <div class="p-6 border-b border-slate-700/60 bg-gradient-to-r from-red-950/70 to-slate-800">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-bold bg-red-400/20 text-red-300 border border-red-400/30 px-2.5 py-1 rounded-md">कचहरी रोड / सिविल लाइंस</span>
+                        <span class="text-xs text-slate-400"><i class="fa-solid fa-square-parking"></i> प्राइवेट पार्किंग</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white group-hover:text-red-400 transition-colors">6. Hotel Karni Mansion</h3>
+                    <p class="text-xs text-slate-400 mt-1">कचहरी रोड, सिविल लाइंस, अजमेर</p>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        हेरिटेज राजपूताना रेड व ब्रॉन्ज थीम। शांत वीआईपी इलाका, सुरक्षित इन-हाउस कार पार्किंग और आना सागर झील के पास।
+                    </p>
+                    <ul class="text-xs text-slate-400 space-y-1.5">
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> बड़ा गार्डन/लॉन व हेरिटेज सुइट्स</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> भीड़भाड़ व शोरगुल से दूर शांत स्टे</li>
+                        <li><i class="fa-solid fa-check text-emerald-400 mr-1.5"></i> आना सागर चौपाटी से मात्र 5 मिनट</li>
+                    </ul>
+                    <div class="pt-2 flex gap-3">
+                        <a href="hotel-karni-mansion/index.html" target="_blank" class="flex-1 bg-red-700 hover:bg-red-600 text-white font-bold py-2.5 px-4 rounded-xl text-xs flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> ओपन वेबसाइट
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- How To Pitch Section -->
+        <section class="mt-16 bg-slate-800/90 rounded-3xl p-8 border border-slate-700 max-w-5xl mx-auto">
+            <div class="text-center mb-8">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-400 bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/20">Client Pitching Guide</span>
+                <h3 class="text-2xl sm:text-3xl font-bold text-white font-serif mt-2">होटल मालिक को यह वेबसाइट कैसे दिखाएं व बेचें?</h3>
+                <p class="text-xs sm:text-sm text-slate-400 mt-1">इन 3 आसान स्टेप्स को फॉलो करें और ऑर्डर पक्का करें:</p>
+            </div>
+
+            <div class="grid sm:grid-cols-3 gap-6 text-left">
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-700">
+                    <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm mb-3">1</div>
+                    <h4 class="font-bold text-white text-sm mb-1">मोबाइल पर डेमो दिखाएं</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        होटल मैनेजर के पास जाएं और सीधे अपने फोन में उनके होटल का यह पेज खोलकर दिखाएं: <em>"सर, मैंने आपके होटल के लिए यह रेडी वेबसाइट बनाई है।"</em>
+                    </p>
+                </div>
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-700">
+                    <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm mb-3">2</div>
+                    <h4 class="font-bold text-white text-sm mb-1">कमीशन की बचत समझाएं</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        उन्हें बताएं: <em>"OYO या MakeMyTrip हर बुकिंग पर 20% से 30% काटते हैं। इस वेबसाइट पर क्लिक करते ही ग्राहक सीधा आपके व्हाट्सएप पर आएगा, 0% कमीशन!"</em>
+                    </p>
+                </div>
+                <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-700">
+                    <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center font-bold text-sm mb-3">3</div>
+                    <h4 class="font-bold text-white text-sm mb-1">किफायती डील ऑफर करें</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        शुरुआत में मात्र ₹2,999 से ₹4,999 में डोमेन + होस्टिंग + उनका असली फोन नंबर सेटअप करके डील तुरंत क्लोज करें।
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+        Ajmer Hotels Web Development Suite • All 6 Independent Single Page Websites are Ready in their respective folders.
+    </footer>
+
+</body>
+</html>

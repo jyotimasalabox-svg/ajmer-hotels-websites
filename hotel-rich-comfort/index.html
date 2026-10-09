@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Rich Comfort - Station Road, Ajmer | Modern Luxury & Budget Stay</title>
+    <meta name="description" content="Hotel Rich Comfort, Station Road / Dargah Road Ajmer. Premium AC Rooms, High-Speed Wi-Fi, Elevator, 24/7 Room Service, Corporate & Tourist Stay.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        indigoDark: '#1E1B4B',
+                        indigoPrimary: '#4338CA',
+                        indigoAccent: '#6366F1',
+                        skySoft: '#E0E7FF',
+                        goldAccent: '#F59E0B',
+                    },
+                    fontFamily: {
+                        sans: ['Space Grotesk', 'sans-serif'],
+                        serif: ['Cinzel', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-rich {
+            background: linear-gradient(rgba(30, 27, 75, 0.88), rgba(67, 56, 202, 0.90)), url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-[#F8FAFC] antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-indigoDark text-indigo-200 text-xs py-2 px-4 border-b border-indigo-900">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-crown text-goldAccent"></i> <strong>होटल रिच कम्फर्ट (Hotel Rich Comfort):</strong> स्टेशन व दरगाह रोड का प्रीमियम स्टे
+            </span>
+            <div class="hidden sm:flex items-center gap-4 text-xs">
+                <span><i class="fa-solid fa-phone text-goldAccent"></i> हेल्पलाइन: +91 97850 XXXXX</span>
+                <span>स्टेशन रोड / दरगाह रोड, अजमेर</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-indigo-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-indigoDark to-indigoPrimary text-white flex items-center justify-center font-serif text-2xl font-bold shadow-md">
+                    RC
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-slate-900 tracking-tight font-serif">
+                        HOTEL RICH COMFORT
+                    </h1>
+                    <p class="text-xs text-indigoPrimary font-bold uppercase tracking-wider">Station & Dargah Road • Ajmer</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#about" class="hover:text-indigoPrimary transition-colors">परिचय</a>
+                <a href="#rooms" class="hover:text-indigoPrimary transition-colors">कमरे व दरें</a>
+                <a href="#amenities" class="hover:text-indigoPrimary transition-colors">सुविधाएँ</a>
+                <a href="#location" class="hover:text-indigoPrimary transition-colors">लोकेशन</a>
+                <a href="#contact" class="hover:text-indigoPrimary transition-colors">संपर्क</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="tel:+919785000000" class="hidden sm:inline-flex items-center gap-2 bg-indigo-50 text-indigoPrimary text-xs font-bold py-2.5 px-4 rounded-full border border-indigo-200">
+                    <i class="fa-solid fa-phone"></i> कॉल करें
+                </a>
+                <a href="#bookingModal" onclick="openBooking('General Enquiry')" class="inline-flex items-center gap-2 bg-indigoPrimary hover:bg-indigoDark text-white text-xs sm:text-sm font-bold py-2.5 px-5 rounded-full shadow-lg shadow-indigo-600/30 transition">
+                    <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> डायरेक्ट बुकिंग
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-rich text-white py-20 md:py-28 px-4 text-center relative">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-goldAccent font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full">
+                <i class="fa-solid fa-star"></i> आधुनिक कम्फर्ट, प्रीमियम इंटीरियर्स और शानदार आतिथ्य
+            </div>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight font-serif">
+                अजमेर में शानदार स्टे <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-400">किफायती दरों में लक्ज़री का अनुभव</span>
+            </h2>
+            <p class="text-indigo-100 text-base md:text-lg max-w-2xl mx-auto">
+                रेलवे स्टेशन और दरगाह शरीफ के बिल्कुल बीच में स्थित। कॉर्पोरेट ट्रेवलर्स, फैमिली और पर्यटकों के लिए अजमेर का आधुनिक होटल।
+            </p>
+
+            <!-- Quick Booking Card -->
+            <div class="bg-white text-slate-800 p-5 rounded-2xl shadow-2xl max-w-3xl mx-auto mt-8 border border-indigo-100 text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">कमरा (Room Type)</label>
+                        <select id="richRoomType" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-indigoPrimary focus:outline-none">
+                            <option value="Executive Club AC Room">एग्जीक्यूटिव क्लब AC (₹1,599)</option>
+                            <option value="Royal Comfort Suite">रॉयल कम्फर्ट सूट (₹2,199)</option>
+                            <option value="Family Comfort 4-Bed">फैमिली कम्फर्ट 4-बेड (₹2,699)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Check-in तारीख</label>
+                        <input type="date" id="richDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-indigoPrimary focus:outline-none">
+                    </div>
+                    <div class="flex items-end">
+                        <button type="button" onclick="sendRichWhatsApp()" class="w-full bg-indigoPrimary hover:bg-indigoDark text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> बेस्ट रेट चेक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-4 pt-4 text-xs sm:text-sm text-indigo-200">
+                <span><i class="fa-solid fa-check text-goldAccent"></i> डायरेक्ट बुकिंग पर 20% डिस्काउंट</span>
+                <span><i class="fa-solid fa-check text-goldAccent"></i> हाई-स्पीड फाइबर वाईफाई</span>
+                <span><i class="fa-solid fa-check text-goldAccent"></i> 24x7 पॉवर बैकअप व लिफ्ट</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="py-12 bg-white border-b border-indigo-100">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 rounded-xl bg-indigo-50/50 border border-indigo-100">
+                <i class="fa-solid fa-location-arrow text-3xl text-indigoPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">प्राइम लोकेशन</h4>
+                <p class="text-xs text-slate-500 mt-1">स्टेशन व दरगाह दोनों के बीच आसान एक्सेस</p>
+            </div>
+            <div class="p-4 rounded-xl bg-indigo-50/50 border border-indigo-100">
+                <i class="fa-solid fa-elevator text-3xl text-indigoPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">लिफ्ट व बैकअप</h4>
+                <p class="text-xs text-slate-500 mt-1">आधुनिक लिफ्ट और 24 घंटे निर्बाध बिजली</p>
+            </div>
+            <div class="p-4 rounded-xl bg-indigo-50/50 border border-indigo-100">
+                <i class="fa-solid fa-wifi text-3xl text-indigoPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">हाई-स्पीड वाईफाई</h4>
+                <p class="text-xs text-slate-500 mt-1">वर्क फ्रॉम होटल एवं वीडियो कॉलिंग हेतु उत्तम</p>
+            </div>
+            <div class="p-4 rounded-xl bg-indigo-50/50 border border-indigo-100">
+                <i class="fa-solid fa-utensils text-3xl text-indigoPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-base">क्विक रूम सर्विस</h4>
+                <p class="text-xs text-slate-500 mt-1">गरमा-गरम चाय, ब्रेकफास्ट और भोजन तुरंत उपलब्ध</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80" alt="Hotel Rich Comfort Ajmer" class="rounded-2xl shadow-xl w-full h-[380px] object-cover border-4 border-white">
+            </div>
+            <div class="space-y-5">
+                <span class="text-indigoPrimary font-bold text-xs uppercase tracking-wider bg-indigo-50 px-3 py-1 rounded-full border border-indigo-200">
+                    Modern Living in Ajmer
+                </span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif leading-tight">
+                    होटल रिच कम्फर्ट — सुकून और आधुनिकता का सही संगम
+                </h3>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                    होटल रिच कम्फर्ट (Hotel Rich Comfort) अजमेर में आने वाले पर्यटकों, व्यापारियों और तीर्थयात्रियों को एक नया अनुभव प्रदान करता है। साफ-सुथरे कमरे, आरामदायक मैट्रेसेस, और 24 घंटे समर्पित स्टाफ आपकी यात्रा को तनावमुक्त बनाते हैं।
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-indigoPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">टैक्सी व अजमेर-पुष्कर साइटसीइंग सुविधा</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-indigoPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">अत्याधुनिक वॉशरूम एवं 24 घंटे गर्म पानी</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-circle-check text-indigoPrimary"></i>
+                        <span class="text-sm font-semibold text-slate-700">कमीशन मुक्त डायरेक्ट रेट की गारंटी</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="py-16 bg-indigo-50/40 border-y border-indigo-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                <span class="text-indigoPrimary font-bold text-xs uppercase tracking-wider">Rooms & Suites</span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif">हमारे प्रीमियम कमरे और शुल्क</h3>
+                <p class="text-slate-600 text-xs sm:text-sm">अपनी पसंद अनुसार कमरा चुनें और सीधे व्हाट्सएप पर पुष्टि पाएं।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Room 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-indigo-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=700&q=80" alt="Executive Club AC" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">एग्जीक्यूटिव क्लब AC</h4>
+                                <span class="text-2xl font-black text-indigoPrimary">₹1,599<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">कॉर्पोरेट व 2 वयस्कों के लिए आधुनिक इंटीरियर युक्त कमरा।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-snowflake text-indigoPrimary"></i> स्प्लिट एयर कंडीशनर</li>
+                                <li><i class="fa-solid fa-tv text-indigoPrimary"></i> 32 इंच स्मार्ट LED TV</li>
+                                <li><i class="fa-solid fa-wifi text-indigoPrimary"></i> हाई-स्पीड वाईफाई व वर्क डेस्क</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('एग्जीक्यूटिव क्लब AC (₹1,599)')" class="w-full bg-indigoPrimary hover:bg-indigoDark text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 2 (Highlight) -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border-2 border-indigoPrimary flex flex-col relative">
+                    <div class="bg-indigoPrimary text-white text-[11px] font-bold text-center py-1 uppercase tracking-wider">
+                        सर्वाधिक पसंदीदा (Premium Choice)
+                    </div>
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=700&q=80" alt="Royal Comfort Suite" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">रॉयल कम्फर्ट सूट</h4>
+                                <span class="text-2xl font-black text-indigoPrimary">₹2,199<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">विशाल लक्ज़री स्पेस, सोफा सिटिंग व प्रीमियम वॉशरूम।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-couch text-indigoPrimary"></i> सिटिंग लाउंज एरिया</li>
+                                <li><i class="fa-solid fa-mug-hot text-indigoPrimary"></i> इलेक्ट्रिक केतली व टी-किट</li>
+                                <li><i class="fa-solid fa-shower text-indigoPrimary"></i> 24x7 हॉट वॉटर व प्रीमियम किट</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('रॉयल कम्फर्ट सूट (₹2,199)')" class="w-full bg-indigoPrimary hover:bg-indigoDark text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-md shadow-indigo-600/30">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> अभी बुक करें (WhatsApp)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-indigo-100 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=700&q=80" alt="Family Comfort 4-Bed" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">फैमिली कम्फर्ट 4-बेड</h4>
+                                <span class="text-2xl font-black text-indigoPrimary">₹2,699<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <p class="text-xs text-slate-500 mb-3">4 से 5 परिजनों के लिए 2 किंग साइज डबल बेड।</p>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-users text-indigoPrimary"></i> 4-5 व्यक्तियों के लिए आदर्श</li>
+                                <li><i class="fa-solid fa-tv text-indigoPrimary"></i> बड़ा LED टीवी</li>
+                                <li><i class="fa-solid fa-bell-concierge text-indigoPrimary"></i> तुरंत रूम सर्विस</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('फैमिली कम्फर्ट 4-बेड (₹2,699)')" class="w-full bg-indigoPrimary hover:bg-indigoDark text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-emerald-300"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="location" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <span class="text-indigoPrimary font-bold text-xs uppercase tracking-wider">Location & Contact</span>
+                    <h3 class="text-3xl font-extrabold text-slate-900 font-serif">होटल रिच कम्फर्ट का पता</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        होटल रिच कम्फर्ट अजमेर के स्टेशन रोड व दरगाह रोड के मुख्य कॉरिडोर में स्थित है। यहाँ से सभी मुख्य बाजारों, पर्यटन स्थलों व रेलवे स्टेशन तक पहुंचना बेहद सुविधाजनक है।
+                    </p>
+                    <div class="bg-indigo-50/60 p-4 rounded-xl border border-indigo-200 text-sm space-y-2">
+                        <p><strong><i class="fa-solid fa-location-dot text-indigoPrimary"></i> पता:</strong> स्टेशन रोड / दरगाह रोड, अजमेर, राजस्थान 305001</p>
+                        <p><strong><i class="fa-solid fa-phone text-indigoPrimary"></i> मोबाइल:</strong> +91 97850 XXXXX / 0145-2XXXXXX</p>
+                        <p><strong><i class="fa-solid fa-envelope text-indigoPrimary"></i> ईमेल:</strong> reservation@hotelrichcomfort.com</p>
+                    </div>
+                </div>
+                <div class="h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.4540307049814!2d74.6320!3d26.4540!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6e2578fa239%3A0x6b4efb4dfba47fef!2sAjmer%20Junction!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-indigoDark text-indigo-200 py-10 text-center text-xs">
+        <p class="font-serif text-white font-bold text-lg mb-2">HOTEL RICH COMFORT - AJMER</p>
+        <p class="text-indigo-300">Modern Hospitality with Uncompromised Comfort.</p>
+        <p class="mt-4 text-indigo-400/60">© 2026 Hotel Rich Comfort. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative text-left">
+            <button onclick="closeBooking()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold">✕</button>
+            <h4 class="text-xl font-bold text-slate-900 font-serif mb-1">कमरा बुक करें / पूछताछ</h4>
+            <p class="text-xs text-slate-500 mb-4">होटल रिच कम्फर्ट (स्टेशन रोड, अजमेर)</p>
+
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">आपका नाम</label>
+                    <input type="text" id="rcName" placeholder="नाम लिखें" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-indigoPrimary focus:outline-none">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Check-in तारीख</label>
+                        <input type="date" id="rcDate" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-indigoPrimary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">कुल व्यक्ति</label>
+                        <input type="number" id="rcGuests" value="2" min="1" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">कमरे का प्रकार</label>
+                    <input type="text" id="rcRoom" readonly class="w-full bg-slate-100 border border-slate-300 rounded-lg p-2.5 text-sm font-medium text-slate-700">
+                </div>
+                <button onclick="submitRichWhatsApp()" class="w-full bg-indigoPrimary hover:bg-indigoDark text-white font-bold py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 mt-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-xl text-emerald-300"></i> व्हाट्सएप पर तुरंत भेजें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openBooking(roomName) {
+            document.getElementById('rcRoom').value = roomName || 'General Enquiry';
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBooking() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+        function submitRichWhatsApp() {
+            const name = document.getElementById('rcName').value || 'Guest';
+            const date = document.getElementById('rcDate').value || 'Not specified';
+            const guests = document.getElementById('rcGuests').value || '2';
+            const room = document.getElementById('rcRoom').value;
+
+            const text = `नमस्ते Hotel Rich Comfort Ajmer,\nमेरा नाम ${name} है।\nमुझे ${room} बुक करना है।\nCheck-in Date: ${date}\nGuests: ${guests}\nकृपया रूम उपलब्धता एवं बेस्ट डायरेक्ट डिस्काउंट रेट बताएं।`;
+            const url = `https://wa.me/919785000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+            closeBooking();
+        }
+        function sendRichWhatsApp() {
+            const date = document.getElementById('richDate').value || 'Not set';
+            const room = document.getElementById('richRoomType').value;
+            const text = `नमस्ते Hotel Rich Comfort Ajmer,\nकमरा: ${room}\nतारीख: ${date}\nकृपया बुकिंग कन्फर्मेशन एवं कॉर्पोरेट/टूरिस्ट डिस्काउंट रेट बताएं।`;
+            const url = `https://wa.me/919785000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

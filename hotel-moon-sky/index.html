@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Moon Sky - Dargah Bazar, Ajmer | Walking Distance to Dargah Sharif</title>
+    <meta name="description" content="Hotel Moon Sky in Dargah Bazar Ajmer. Located just 2-3 mins walking distance to Khwaja Garib Nawaz Dargah Sharif. Best budget AC/Non-AC family rooms.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emeraldDark: '#064E3B',
+                        emeraldPrimary: '#047857',
+                        emeraldLight: '#10B981',
+                        goldAccent: '#F59E0B',
+                        goldLight: '#FEF3C7',
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        serif: ['Cinzel', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-moon {
+            background: linear-gradient(rgba(6, 78, 59, 0.88), rgba(6, 78, 59, 0.94)), url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+    </style>
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-emeraldDark text-emerald-100 text-xs py-2 px-4 border-b border-emerald-800">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <span class="flex items-center gap-2">
+                <i class="fa-solid fa-moon text-goldAccent"></i> <strong>होटल मून स्काई:</strong> दरगाह शरीफ से मात्र 3 मिनट पैदल दूरी
+            </span>
+            <div class="hidden sm:flex items-center gap-4 text-xs">
+                <span><i class="fa-solid fa-phone text-goldAccent"></i> 24x7 हेल्पलाइन: +91 94140 XXXXX</span>
+                <span class="text-goldAccent font-bold">दरगाह बाजार, अजमेर</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-emerald-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-emeraldDark to-emeraldPrimary text-goldAccent flex items-center justify-center font-serif text-2xl font-bold shadow-md">
+                    MS
+                </div>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-extrabold text-slate-900 tracking-tight font-serif flex items-center gap-2">
+                        HOTEL MOON SKY
+                    </h1>
+                    <p class="text-xs text-emeraldPrimary font-bold uppercase tracking-wider">Dargah Bazar, Ajmer Sharif</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#about" class="hover:text-emeraldPrimary transition-colors">परिचय</a>
+                <a href="#rooms" class="hover:text-emeraldPrimary transition-colors">कमरे व सुविधाएं</a>
+                <a href="#dargah-guide" class="hover:text-emeraldPrimary transition-colors">जियारत गाइड</a>
+                <a href="#location" class="hover:text-emeraldPrimary transition-colors">स्थान</a>
+                <a href="#contact" class="hover:text-emeraldPrimary transition-colors">संपर्क</a>
+            </nav>
+
+            <div class="flex items-center gap-3">
+                <a href="tel:+919414000000" class="hidden sm:inline-flex items-center gap-2 bg-emerald-50 text-emerald-900 text-xs font-bold py-2.5 px-4 rounded-full border border-emerald-200">
+                    <i class="fa-solid fa-phone"></i> कॉल करें
+                </a>
+                <a href="#bookingModal" onclick="openBooking('General Enquiry')" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold py-2.5 px-5 rounded-full shadow-lg shadow-emerald-600/30 transition">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> डायरेक्ट बुक करें
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-moon text-white py-20 md:py-28 px-4 text-center relative">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-goldAccent font-semibold text-xs md:text-sm px-4 py-1.5 rounded-full">
+                <i class="fa-solid fa-person-walking"></i> दरगाह शरीफ मुख्य गेट से मात्र 250 मीटर की दूरी
+            </div>
+            <h2 class="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight">
+                ख्वाजा गरीब नवाज के दरबार में <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-400 font-serif">शांतिपूर्ण व सुकूनदेह ठहराव</span>
+            </h2>
+            <p class="text-emerald-100 text-base md:text-lg max-w-2xl mx-auto">
+                जायरीनों और पर्यटकों के लिए दरगाह बाजार का सबसे साफ-सुथरा व सुरक्षित होटल। 24 घंटे गर्म पानी, वातानुकूलित कमरे और परिवार के लिए लार्ज ग्रुप रूम्स।
+            </p>
+
+            <!-- Quick Booking Card -->
+            <div class="bg-white text-slate-800 p-5 rounded-2xl shadow-2xl max-w-3xl mx-auto mt-8 border border-emerald-100 text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">कमरा (Room Type)</label>
+                        <select id="moonRoomType" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-emeraldPrimary focus:outline-none">
+                            <option value="Standard Double AC Room">डबल AC रूम (₹1,299)</option>
+                            <option value="Deluxe Triple Bed AC">ट्रिपल बेड AC रूम (₹1,699)</option>
+                            <option value="Family 4 to 6 Bed Room">फैमिली 4-6 बेड रूम (₹2,499)</option>
+                            <option value="Budget Non-AC Room">बजट Non-AC रूम (₹799)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-500 uppercase mb-1">Check-in तारीख</label>
+                        <input type="date" id="moonDate" class="w-full bg-slate-50 border border-slate-200 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-emeraldPrimary focus:outline-none">
+                    </div>
+                    <div class="flex items-end">
+                        <button type="button" onclick="sendMoonWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-2 transition shadow-md">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> उपलब्धता चेक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features Pills -->
+            <div class="flex flex-wrap justify-center gap-4 pt-4 text-xs sm:text-sm text-emerald-200">
+                <span><i class="fa-solid fa-check text-goldAccent"></i> नो कमीशन (डायरेक्ट होटल रेट)</span>
+                <span><i class="fa-solid fa-check text-goldAccent"></i> महिलाओं व परिवारों के लिए 100% सुरक्षित</span>
+                <span><i class="fa-solid fa-check text-goldAccent"></i> लिफ्ट एवं गर्म पानी उपलब्ध</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Stay at Moon Sky -->
+    <section class="py-12 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <i class="fa-solid fa-person-walking-arrow-right text-3xl text-emeraldPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-sm md:text-base">पैदल 3 मिनट दरगाह</h4>
+                <p class="text-xs text-slate-500 mt-1">दिन या रात कभी भी पैदल जियारत के लिए जाएं</p>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <i class="fa-solid fa-shield-cat text-3xl text-emeraldPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-sm md:text-base">सुरक्षित वातावरण</h4>
+                <p class="text-xs text-slate-500 mt-1">24 घंटे CCTV निगरानी और पारिवारिक माहौल</p>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <i class="fa-solid fa-shower text-3xl text-emeraldPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-sm md:text-base">24 घंटे गर्म पानी</h4>
+                <p class="text-xs text-slate-500 mt-1">सर्दियों व वजू के लिए हमेशा गर्म पानी उपलब्ध</p>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-50 border border-slate-100">
+                <i class="fa-solid fa-wallet text-3xl text-emeraldPrimary mb-2"></i>
+                <h4 class="font-bold text-slate-900 text-sm md:text-base">किफायती बजट रेट</h4>
+                <p class="text-xs text-slate-500 mt-1">कम बजट में साफ सुथरा और शांत कमरा</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Dargah Guide -->
+    <section id="about" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=900&q=80" alt="Hotel Moon Sky Room Dargah Bazar" class="rounded-2xl shadow-xl w-full h-[380px] object-cover">
+            </div>
+            <div class="space-y-5">
+                <span class="text-emeraldPrimary font-bold text-xs uppercase tracking-wider bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+                    Dargah Bazar Location
+                </span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif leading-tight">
+                    दरगाह बाजार के बीचों-बीच, आपके परिवार का आरामदायक बसेरा
+                </h3>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+                    होटल मून स्काई (Hotel Moon Sky) दरगाह बाजार के मुख्य मार्ग के करीब स्थित है। यहाँ से दरगाह शरीफ का निजाम गेट मात्र चंद कदमों की दूरी पर है। जायरीनों को किसी ऑटो या गाड़ी का इंतज़ार नहीं करना पड़ता।
+                </p>
+                <div class="space-y-3">
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-emeraldPrimary mt-1"></i>
+                        <div>
+                            <strong class="text-sm text-slate-800">बड़ा पारिवारिक कमरा (Group Accommodations)</strong>
+                            <p class="text-xs text-slate-500">यदि आप 4 से 8 लोगों के परिवार या जत्थे के साथ आ रहे हैं, तो बड़े हॉल व कनेक्टेड रूम्स की सुविधा उपलब्ध है।</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-emeraldPrimary mt-1"></i>
+                        <div>
+                            <strong class="text-sm text-slate-800">बाजार व खान-पान के निकट</strong>
+                            <p class="text-xs text-slate-500">दरगाह बाजार का मशहूर सोहन हलवा, बिरयानी, मुगलई खाने और खरीदारी की दुकानें होटल से 50 मीटर में हैं।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms & Tariff Section -->
+    <section id="rooms" class="py-16 bg-slate-100 border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12 space-y-2">
+                <span class="text-emeraldPrimary font-bold text-xs uppercase tracking-wider">Rooms & Tariff</span>
+                <h3 class="text-3xl font-extrabold text-slate-900 font-serif">कमरे एवं किफायती किराया</h3>
+                <p class="text-slate-600 text-xs sm:text-sm">होटल से सीधा संपर्क करने पर कोई अतिरिक्त बुकिंग शुल्क नहीं लगता।</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Room 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=700&q=80" alt="Standard Double Room" class="w-full h-full object-cover">
+                        <span class="absolute bottom-3 left-3 bg-slate-900/80 text-white text-xs px-2.5 py-1 rounded-md backdrop-blur-sm">2 व्यक्ति</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">डीलक्स डबल AC रूम</h4>
+                                <span class="text-2xl font-black text-emeraldPrimary">₹1,299<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-snowflake text-emeraldPrimary"></i> पावरफुल AC एवं पंखा</li>
+                                <li><i class="fa-solid fa-tv text-emeraldPrimary"></i> LED टीवी व केबल कनेक्शन</li>
+                                <li><i class="fa-solid fa-bath text-emeraldPrimary"></i> अटैच वेस्टर्न/इंडियन टॉयलेट</li>
+                                <li><i class="fa-solid fa-wifi text-emeraldPrimary"></i> 24 घंटे फ्री वाईफाई</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('डीलक्स डबल AC रूम (₹1,299)')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 2 (Popular) -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-lg border-2 border-emeraldPrimary flex flex-col relative">
+                    <div class="bg-emeraldPrimary text-white text-[11px] font-bold text-center py-1 uppercase tracking-wider">
+                        जायरीनों की पहली पसंद (Best Value)
+                    </div>
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=700&q=80" alt="Family 4-Bed Room" class="w-full h-full object-cover">
+                        <span class="absolute bottom-3 left-3 bg-slate-900/80 text-white text-xs px-2.5 py-1 rounded-md backdrop-blur-sm">4 से 5 व्यक्ति</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">फैमिली 4-बेड AC कमरा</h4>
+                                <span class="text-2xl font-black text-emeraldPrimary">₹2,199<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-bed text-emeraldPrimary"></i> 2 डबल किंग साइज बेड</li>
+                                <li><i class="fa-solid fa-shower text-emeraldPrimary"></i> 24 घंटे गर्म पानी गीजर</li>
+                                <li><i class="fa-solid fa-luggage-cart text-emeraldPrimary"></i> भरपूर सामान रखने की जगह</li>
+                                <li><i class="fa-solid fa-bell text-emeraldPrimary"></i> 24x7 रूम सर्विस सपोर्ट</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('फैमिली 4-बेड AC कमरा (₹2,199)')" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2 shadow-md shadow-emerald-600/30">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> अभी बुक करें (WhatsApp)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Room 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 flex flex-col">
+                    <div class="h-52 relative">
+                        <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=700&q=80" alt="Economy Non-AC" class="w-full h-full object-cover">
+                        <span class="absolute bottom-3 left-3 bg-slate-900/80 text-white text-xs px-2.5 py-1 rounded-md backdrop-blur-sm">2 व्यक्ति</span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                        <div>
+                            <div class="flex justify-between items-baseline mb-2">
+                                <h4 class="font-bold text-lg text-slate-900">बजट Non-AC रूम</h4>
+                                <span class="text-2xl font-black text-emeraldPrimary">₹799<span class="text-xs text-slate-500 font-normal">/दिन</span></span>
+                            </div>
+                            <ul class="text-xs text-slate-600 space-y-2">
+                                <li><i class="fa-solid fa-fan text-emeraldPrimary"></i> हाई-स्पीड सीलिंग फैन</li>
+                                <li><i class="fa-solid fa-bed text-emeraldPrimary"></i> आरामदायक डबल बेड</li>
+                                <li><i class="fa-solid fa-bath text-emeraldPrimary"></i> साफ-सुथरा अटैच वॉशरूम</li>
+                                <li><i class="fa-solid fa-wifi text-emeraldPrimary"></i> फ्री वाई-फाई कनेक्टिविटी</li>
+                            </ul>
+                        </div>
+                        <button onclick="openBooking('बजट Non-AC रूम (₹799)')" class="w-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold py-2.5 rounded-xl text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप पर बुक करें
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="location" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div class="space-y-4">
+                    <span class="text-emeraldPrimary font-bold text-xs uppercase tracking-wider">Address & Map</span>
+                    <h3 class="text-3xl font-extrabold text-slate-900 font-serif">होटल मून स्काई कैसे पहुंचे?</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        अजमेर रेलवे स्टेशन से ऑटो या ई-रिक्शा द्वारा दरगाह बाजार सीधे 5 मिनट में पहुँचा जा सकता है। दिल्ली गेट अथवा निजाम गेट के नजदीक स्थित होने से पैदल पहुंचना बेहद आसान है।
+                    </p>
+                    <div class="bg-emerald-50 p-4 rounded-xl border border-emerald-200 text-sm space-y-2">
+                        <p><strong><i class="fa-solid fa-location-dot text-emeraldPrimary"></i> पता:</strong> दरगाह बाजार, ख्वाजा गरीब नवाज दरगाह शरीफ के पास, अजमेर, राजस्थान 305001</p>
+                        <p><strong><i class="fa-solid fa-phone text-emeraldPrimary"></i> मोबाइल:</strong> +91 94140 XXXXX / +91 98290 XXXXX</p>
+                        <p><strong><i class="fa-solid fa-clock text-emeraldPrimary"></i> चेक-इन/चेक-आउट:</strong> 24 घंटे फ्लैक्सिबल टाइमिंग उपलब्ध</p>
+                    </div>
+                </div>
+                <div class="h-72 rounded-2xl overflow-hidden shadow-md border border-slate-200">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3571.309322836262!2d74.6234!3d26.4566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be6e47fa41c09%3A0xc39f88636a0c0ad!2sAjmer%20Sharif%20Dargah!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-emeraldDark text-emerald-200 py-10 text-center text-xs">
+        <p class="font-serif text-white font-bold text-lg mb-2">HOTEL MOON SKY - DARGAH BAZAR, AJMER</p>
+        <p class="text-emerald-300">ख्वाजा के दर पर आपका सच्चा मेजबान।</p>
+        <p class="mt-4 text-emerald-400/60">© 2026 Hotel Moon Sky. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl relative text-left">
+            <button onclick="closeBooking()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold">✕</button>
+            <h4 class="text-xl font-bold text-slate-900 font-serif mb-1">कमरा बुक करें</h4>
+            <p class="text-xs text-slate-500 mb-4">होटल मून स्काई (दरगाह बाजार, अजमेर)</p>
+
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">आपका नाम</label>
+                    <input type="text" id="mName" placeholder="नाम लिखें" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-emeraldPrimary focus:outline-none">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">Check-in तारीख</label>
+                        <input type="date" id="mDate" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-emeraldPrimary focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1">कुल व्यक्ति</label>
+                        <input type="number" id="mGuests" value="2" min="1" class="w-full border border-slate-300 rounded-lg p-2.5 text-sm">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 mb-1">कमरे का प्रकार</label>
+                    <input type="text" id="mRoom" readonly class="w-full bg-slate-100 border border-slate-300 rounded-lg p-2.5 text-sm font-medium text-slate-700">
+                </div>
+                <button onclick="submitMoonWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 rounded-xl shadow-lg flex items-center justify-center gap-2 mt-2 transition text-sm">
+                    <i class="fa-brands fa-whatsapp text-xl"></i> व्हाट्सएप पर बुकिंग भेजें
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openBooking(roomName) {
+            document.getElementById('mRoom').value = roomName || 'General Enquiry';
+            document.getElementById('bookingModal').classList.remove('hidden');
+        }
+        function closeBooking() {
+            document.getElementById('bookingModal').classList.add('hidden');
+        }
+        function submitMoonWhatsApp() {
+            const name = document.getElementById('mName').value || 'Guest';
+            const date = document.getElementById('mDate').value || 'Not specified';
+            const guests = document.getElementById('mGuests').value || '2';
+            const room = document.getElementById('mRoom').value;
+
+            const text = `नमस्ते Hotel Moon Sky (दरगाह बाजार),\nमेरा नाम ${name} है।\nमुझे ${room} चाहिए।\nतारीख: ${date}\nयात्री संख्या: ${guests}\nकृपया रूम कन्फर्मेशन व रेट बताएं।`;
+            const url = `https://wa.me/919414000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+            closeBooking();
+        }
+        function sendMoonWhatsApp() {
+            const date = document.getElementById('moonDate').value || 'Not set';
+            const room = document.getElementById('moonRoomType').value;
+            const text = `नमस्ते Hotel Moon Sky,\nमैं दरगाह जियारत के लिए आ रहा हूँ:\nकमरा: ${room}\nतारीख: ${date}\nकृपया बुकिंग उपलब्धता बताएं।`;
+            const url = `https://wa.me/919414000000?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
